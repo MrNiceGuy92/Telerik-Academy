@@ -1,3 +1,3 @@
 # LoopsHW
-Sixth HW at Telerik Academy.
+Sixth HW at Telerik Academy
 
