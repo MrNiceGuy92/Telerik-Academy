@@ -1,0 +1,20 @@
+Problem 12 (Integrated Development Environments)
+
+1. Visual Studio: This IDE is used to develop web sites, web applications and web services as well as computer programs. 
+It uses Microsoft development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, Windows 
+Store and Microsoft Silverlight. It supports different programming languages and allows the code editor and debugger to support 
+nearly any programming language, provided a language-specific service exists.
+
+2. Netbeans: This  Integrated Development Environment is developed by Oracle Corp. primarily with Java. It runs on Windows, 
+OS X, Linux, Solaris and other platforms supporting a compatible Java Virtual Machine (JVM).
+
+3. Eclipse: This IDE is quite comprehensive and even similar to Netbeans in a variety of ways, including its use of Java and plug-in 
+architecture. However, Eclipse as an IDE comes in a wild variety of flavours, catering to various needs and objectives in software 
+development work flows.
+
+4. Code::Blocks: Unlike the other products seen thus far, Code::Blocks, which is built on the wxWidgets framework, is exceptionally 
+lightweight in size, yet still quite functional and feature-rich IDE.
+
+5. SharpDevelop: SharpDevelop is a free and open-source IDE for the .NET Framework. It was designed as a free and lightweight alternative 
+to Microsoft Visual Studio, and contains an equivalent feature for almost every essential Visual Studio Express feature, including features for 
+project management, code editing, application compiling and debugging.

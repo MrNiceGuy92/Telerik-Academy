@@ -1,0 +1,8 @@
+Problem 13 (Difference between C# and .NET Framework)
+
+C Sharp is an multi-paradigm, object-oriented programming language developed by Microsoft for the .NET Framework. 
+It is a very modern, extremely powerful and easy to learn language. The Software framework, called .NET, is the environment for
+executing .NET programs. It includes the Framework Class Library (FCL) which provides provides language interoperability
+i.e. each language can use code written in another language. The Common Language Runtime (CLR) is the other building block 
+of the framework. The CLR deals with security, memory management, execution of applications etc. The FCL and CLR together
+form the .NET Framework.

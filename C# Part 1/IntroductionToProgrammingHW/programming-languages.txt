@@ -1,0 +1,25 @@
+Problem 11 (Popular Programming Languages)
+
+The five most popular programming languages are the following:
+	
+	1. Java
+	2. C
+	3. C++
+	4. C#
+	5. Python
+	
+Java: There are around nine million developers who use this language worldwide. Its syntax is similar to C and C++, but 
+it has fewer low-level facilities than either of them. It is an object-oriented language, which can run on more than one platform
+without needing to be recompiled.
+
+C: This language lays the foundation for many other languages which have borrowed control structures and other basic features
+form C. Such languages include- C#, Limbo, JavaScript, Perl, PHP and many others. C was developed at Bell labs.
+
+C++: This language is biased towards embedded systems and operating system kernels, but can be used for entertainment
+software, servers, desktop applications and performance-critical applications.
+
+C#: This language is developed by Microsoft within its .NET initiative. C Sharp is a simple, modern, object-oriented programming
+language, designed for the Common Language Infrastructure (CLI).
+
+Python: This is a high-level programming language. It is an easy to learn language due to its syntax, which allows programmers 
+to express concepts in fewer lines of code than would be possible in languages such as C++ or Java.	
