@@ -55,3 +55,7 @@ class BinarySearch
         Console.WriteLine("The number {0} has index {1} in array.", searchNum, position);
     }
 }
+
+// ALTERNATIVE SOLUTION: using the exsiting BinarySearch function
+//int indexToFind = Array.BinarySearch(numbersArray, valueToFind);
+//Console.WriteLine("The index of the element {0} is : {1}", valueToFind, indexToFind);
