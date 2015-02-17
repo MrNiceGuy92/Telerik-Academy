@@ -14,51 +14,167 @@ class SequenceNMatrix
     static void Main()
     {
         string[,] matrix = {
-                            {"ha", "fifi", "ho", "hi"},
-                            {"fo", "ha", "hi", "xx"},
-                            {"xxx", "ho", "ha", "xx"}
+                            {"mo", "beep", "beep", "beep"},
+                            {"car", "car", "c", "car"},
                             };
 
-        int horizCounter = 1;
-        int vertCounter = 1, diagonalCounter = 1;
-        int maxVertCounter = 1, maxHorizCounter = 1, maxDiagCounter =1;
-        string horizSequence = "", vertSequence = "", diagSequence = "";
+        int counter = 1;
+        int maxCount = 0;
+        int currentRow = 0;
+        int currentCol = 0;
+        List<string> myList = new List<string>();
 
         for (int row = 0; row < matrix.GetLength(0); row++)
         {
-            for (int col = 1; col < matrix.GetLength(1); col++)
+            for (int col = 0; col < matrix.GetLength(1); col++)
             {
-                if (matrix[row,col] == matrix[row,col -1])
+                if ((col < matrix.GetLength(1) - 1) && (matrix[row, col + 1] == matrix[row, col]))
                 {
-                    horizCounter++;
+                    currentCol = col + 1;
+
+                    while ((currentCol < matrix.GetLength(1)) && (matrix[row, currentCol] == matrix[row, col]))
+                    {
+                        counter++;
+                        currentCol++;
+
+                        if (counter > maxCount)
+                        {
+                            maxCount = counter;
+                            myList.Clear();
+                            myList.Add(matrix[row, col]);
+                        }
+                        else if (counter == maxCount)
+                        {
+                            myList.Add(matrix[row, col]);
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+                    currentCol = 0;
+                    counter = 1;
                 }
-                if (matrix[row,col - 1] == matrix[row + 1, col -1])
+
+                if ((row < matrix.GetLength(0) - 1) && (col < matrix.GetLength(1) - 1) &&
+                    (matrix[row + 1, col + 1] == matrix[row, col]))
                 {
-                    vertCounter++;
+                    currentCol = col + 1;
+                    currentRow = row + 1;
+
+                    while ((currentRow < matrix.GetLength(0)) && (currentCol < matrix.GetLength(1)) &&
+                           (matrix[currentRow, currentCol] == matrix[row, col]))
+                    {
+                        counter++;
+                        currentRow++;
+                        currentCol++;
+                        if (counter > maxCount)
+                        {
+                            maxCount = counter;
+                            myList.Clear();
+                            myList.Add(matrix[row, col]);
+                        }
+                        else if (counter == maxCount)
+                        {
+                            myList.Add(matrix[row, col]);
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+                    currentRow = 0;
+                    currentCol = 0;
+                    counter = 1;
                 }
-                if ((row == col - 1) && (matrix[row,col] == matrix[row + 1, col + 1]))
+
+                if ((row < matrix.GetLength(0) - 1) && (matrix[row + 1, col] == matrix[row, col]))
                 {
-                    diagonalCounter++;
+                    currentRow = row + 1;
+
+                    while ((currentRow < matrix.GetLength(0)) && (matrix[currentRow, col] == matrix[row, col]))
+                    {
+                        counter++;
+                        currentRow++;
+                        if (counter > maxCount)
+                        {
+                            maxCount = counter;
+                            myList.Clear();
+                            myList.Add(matrix[row, col]);
+                        }
+                        else if (counter == maxCount)
+                        {
+                            myList.Add(matrix[row, col]);
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+                    currentRow = 0;
+                    counter = 1;
                 }
-                if (diagonalCounter > maxDiagCounter)
+
+                if ((row < matrix.GetLength(0) - 1) && (col > 0) && (matrix[row + 1, col - 1] == matrix[row, col]))
                 {
-                    maxDiagCounter = diagonalCounter;
-                    diagSequence += matrix[row, col]; 
+                    currentRow = row + 1;
+                    currentCol = col - 1;
+
+                    while ((currentRow < matrix.GetLength(0)) && (currentCol >= 0) &&
+                           (matrix[currentRow, currentCol] == matrix[row, col]))
+                    {
+                        counter++;
+                        currentRow++;
+                        currentCol--;
+                        if (counter > maxCount)
+                        {
+                            maxCount = counter;
+                            myList.Clear();
+                            myList.Add(matrix[row, col]);
+                        }
+                        else if (counter == maxCount)
+                        {
+                            myList.Add(matrix[row, col]);
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+                    currentRow = 0;
+                    currentCol = 0;
+                    counter = 1;
                 }
-                if (horizCounter > maxHorizCounter)
-                {
-                    maxHorizCounter = horizCounter;
-                    horizSequence += matrix[row, col];
-                }
-                if (vertCounter > maxVertCounter)
-                {
-                    maxVertCounter = vertCounter;
-                    vertSequence += matrix[row, col - 1];
-                }
-                
             }
         }
-        Console.WriteLine(diagSequence);
-    }
+
+        Console.Write("The longest sequence: ");
+
+        if (maxCount > 0)
+        {
+            foreach (string item in myList)
+            {
+                for (int i = 0; i < maxCount; i++)
+                {
+                    if (i < maxCount - 1)
+                    {
+                        Console.Write("{0}, ", item);
+                    }
+                    else
+                    {
+                        Console.Write("{0}", item);
+                    }
+                }
+                Console.WriteLine();
+            }
+        }
+        else
+        {
+            foreach (string item in matrix)
+            {
+                Console.WriteLine(item);
+            }
+        }
+    }    
 }
 
