@@ -23,10 +23,7 @@
             DateTime futureDate = DateTime.ParseExact(inputFutureDate, format, CultureInfo.InvariantCulture);
             GetWorkdays(futureDate);
 
-            DateTime[] holidays = {
-                                      01/01,
-
-                                  };
+           
 
         }
 
