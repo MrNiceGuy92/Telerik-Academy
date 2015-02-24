@@ -15,7 +15,21 @@ using System.Threading.Tasks;
     {
         static void Main()
         {
+            Random randomNumGenerator = new Random();
 
+            Console.Write("Ten random values in the range [100,200]: ");
+            for (int i = 0; i < 10; i++)
+            {
+                if(i < 9)
+                {
+                    Console.Write(randomNumGenerator.Next(100,201) + ",");
+                }
+                else
+                {
+                    Console.Write(randomNumGenerator.Next(100, 201));
+                }
+            }
+            Console.WriteLine();
         }
     }
 }

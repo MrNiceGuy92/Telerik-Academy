@@ -1,11 +1,12 @@
 ﻿namespace Workdays
 {
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+    using System;
+    using System.Collections.Generic;
+    using System.Globalization;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
 
 //Problem 5. Workdays
 
@@ -16,7 +17,26 @@ using System.Threading.Tasks;
     {
         static void Main()
         {
+            Console.Write("Choose a future date (dd/MM/yyyy): ");
+            string inputFutureDate = Console.ReadLine(); ;
+            string format = "dd/MM/yyyy";
+            DateTime futureDate = DateTime.ParseExact(inputFutureDate, format, CultureInfo.InvariantCulture);
+            GetWorkdays(futureDate);
 
+            DateTime[] holidays = {
+                                      01/01,
+
+                                  };
+
+        }
+
+        static void GetWorkdays(DateTime futureDate)
+        {
+            DateTime currentDate = DateTime.Now;
+
+            System.TimeSpan difference = futureDate.Subtract(currentDate);
+
+            Console.WriteLine(difference.);
         }
     }
 }

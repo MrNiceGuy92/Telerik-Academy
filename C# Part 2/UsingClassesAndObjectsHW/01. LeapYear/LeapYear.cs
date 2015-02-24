@@ -16,7 +16,12 @@ using System.Threading.Tasks;
     {
         static void Main()
         {
+            Console.Write("Input year: ");
+            int year = int.Parse(Console.ReadLine());
 
+            bool isLeap = DateTime.IsLeapYear(year);
+
+            Console.WriteLine("Is it a leap year?: {0}", isLeap);
         }
     }
 }

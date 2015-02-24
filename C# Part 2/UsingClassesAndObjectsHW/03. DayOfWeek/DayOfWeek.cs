@@ -16,7 +16,9 @@ using System.Threading.Tasks;
     {
         static void Main()
         {
+            DateTime currentDate = DateTime.Now;
 
+            Console.WriteLine("Today is {0}.", currentDate.DayOfWeek);
         }
     }
 }
