@@ -15,8 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Workdays", "05. Workday
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. SumIntegers", "06. SumIntegers\06. SumIntegers.csproj", "{7EDD40E9-604D-4751-9793-415A0BB47277}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. ArithmeticExpression", "07. ArithmeticExpression\07. ArithmeticExpression.csproj", "{6B601E7A-9133-49EF-946F-1AE4483A43FF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,10 +45,6 @@ Global
 		{7EDD40E9-604D-4751-9793-415A0BB47277}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EDD40E9-604D-4751-9793-415A0BB47277}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EDD40E9-604D-4751-9793-415A0BB47277}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B601E7A-9133-49EF-946F-1AE4483A43FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B601E7A-9133-49EF-946F-1AE4483A43FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B601E7A-9133-49EF-946F-1AE4483A43FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B601E7A-9133-49EF-946F-1AE4483A43FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
