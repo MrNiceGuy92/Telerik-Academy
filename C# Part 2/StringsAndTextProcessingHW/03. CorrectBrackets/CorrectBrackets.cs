@@ -18,7 +18,27 @@
             Console.Write("Input expression: ");
             string expression = Console.ReadLine();
 
-            
+            int counter = 0;
+            for (int i = 0; i < expression.Length; i++)
+            {
+                if (expression[i] == '(')
+                {
+                    counter++;
+                }
+                else if (expression[i] == ')')
+                {
+                    counter--;
+                }
+            }
+
+            if (counter < 0 ||counter != 0)
+            {
+                Console.WriteLine("\nInvalid expression.");
+            }
+            else if (counter == 0)
+            {
+                Console.WriteLine("\nThe expression is valid.");
+            }
         }
     }
 }

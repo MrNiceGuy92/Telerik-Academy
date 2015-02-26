@@ -18,24 +18,31 @@
     {
         static void Main()
         {
-            //Example from problem
-            string text = "We are living in a <upcase>yellow submarine</upcase>."; //We don't have <upcase>anything</upcase> else.";
+            //User input
+            //string text = Console.ReadLine();
 
-            string firstKeyword = "<uppercase>";
-            string secondKeyword = "</uppercase>";
+            //Example from problem
+            string text = "We are living in a <upcase>yellow submarine</upcase>. We don't have <upcase>anything</upcase> else.";
+
+            string firstKeyword = "<upcase>";
+            string secondKeyword = "</upcase>";
 
             int firstIndex = text.IndexOf(firstKeyword);
             int secondIndex = text.IndexOf(secondKeyword);
 
-            string smth = null;
             while (firstIndex != -1 && secondIndex != -1)
             {
-                smth = text.Substring(firstIndex + firstKeyword.Length, secondIndex - firstIndex - firstKeyword.Length);
+                string someSubstring = text.Substring(firstIndex + firstKeyword.Length, secondIndex - firstKeyword.Length - firstIndex);
+                string upperSubstring = someSubstring.ToUpper();
+
+                text = text.Replace(someSubstring, upperSubstring);
+
                 firstIndex = text.IndexOf(firstKeyword, firstIndex + 1);
                 secondIndex = text.IndexOf(secondKeyword, secondIndex + 1);
             }
 
-            Console.WriteLine(smth);
+            Console.WriteLine("Transformed text: ");
+            Console.WriteLine(text);
         }
     }
 }
