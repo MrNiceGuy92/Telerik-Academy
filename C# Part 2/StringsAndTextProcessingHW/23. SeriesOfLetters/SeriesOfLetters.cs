@@ -14,7 +14,31 @@
     {
         static void Main()
         {
+            string input = "aaaaabbbbbcdddeeeedssaa";
 
+            StringBuilder result = new StringBuilder();
+
+            char start = input[0];
+
+            for (int i = 0; i < input.Length; i++)
+            {
+                for (int j = i + 1; j < input.Length; j+=2)
+                {
+                    if (input[i] == input[j])
+                    {                        
+                        i = j;
+                        j--;
+                        input = input.Remove(j, 1);
+                    }
+                    else
+                    {
+                        i = j;
+                        j--;
+                    }
+                }
+            }
+
+            Console.WriteLine(input);
         }
     }
 

@@ -17,23 +17,14 @@
         static void Main()
         {
             Console.WriteLine("Input date in format dd.MM.yyyy hh:mm:ss");
-            string inputDate = Console.ReadLine();
-            string format = "dd.MM.yyyy hh:mm:ss";
+            string input = Console.ReadLine();
 
-            DateTime dateValue;
-
-            DateTime.TryParseExact(inputDate, format, null, DateTimeStyles.None, out dateValue);
-
-            DateTime result = dateValue.AddHours(6).AddMinutes(30);
-            string result1 = result.ToString(format);
-
-            DateTime dateValue1;
-            DateTime.TryParseExact(result1, format, null, DateTimeStyles.None, out dateValue1);
-
-            Console.WriteLine(dateValue);
-            Console.WriteLine(dateValue1);
+            DateTime inputDate = Convert.ToDateTime(input, CultureInfo.CreateSpecificCulture("bg-BG"));
+	        string format = "MM.yyyy hh:mm:ss";
+            inputDate.ToString(format);
 
 
+            Console.WriteLine(inputDate);
         }
     }
 

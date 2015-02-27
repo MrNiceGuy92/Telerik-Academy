@@ -14,41 +14,33 @@
     {
         static void Main()
         {
-            string input = "<p>Please visit <a href="http://academy.telerik. com">our site</a>" + 
-                "to choose a training course. Also visit <a href="www.devbg.org">our forum</a> to discuss the courses.</p>";
+            string input = "<p>Please visit <a href=\"http://academy.telerik. com\">our site</a> to choose a training course. Also visit <a href=\"www.devbg.org\">our forum</a> to discuss the courses.</p>";
 
-            input = input.Replace("</a>", "[/URL]");
+            input = input.Replace("</a>", "[/URL]");  
 
-            string keyword = "<a href =";
-            string secondKey = ">";
+            string keyword = "<a href=\"";
+            string secondKey = "\">";
 
             int index = input.IndexOf(keyword);
             int secondIndex = input.IndexOf(secondKey);
-            var url = new List<string>();
 
-            int length = 0;
-            while (index != -1)
-            {
-                length++;
-                index = input.IndexOf(keyword, index + 1);
-            }
+            var url = new List<string>(); //List to add urls from input text
 
-            string[] subs = new string[length];
-            while (index != -1 && secondIndex != -1)
+            while (index > 0 && secondIndex > 0)
             {
-                for (int i = 0; i < input.Length; i++)
-                {
-                    subs[i] = input.Substring(index + keyword.Length, secondIndex - index - keyword.Length);
-                }
+                string someSub = string.Empty;
+                someSub = input.Substring(index + keyword.Length, secondIndex - index - keyword.Length); //substrings of urls from input
+                url.Add(someSub);
                 index = input.IndexOf(keyword, index + 1);
                 secondIndex = input.IndexOf(secondKey, secondIndex + 1);
             }
 
-
-            foreach (var item in subs)
+            for (int i = 0; i < url.Count; i++)
             {
-                Console.WriteLine(item);
+                input = input.Replace(keyword + url[i] + secondKey, "[URL]" + url[i] + "[/URL] ");
             }
+
+            Console.WriteLine(input);
         }
     }
 

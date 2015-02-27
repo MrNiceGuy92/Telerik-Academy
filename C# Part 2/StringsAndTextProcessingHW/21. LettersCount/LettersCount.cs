@@ -15,6 +15,12 @@
     {
         static void Main()
         {
+            string input = "a !bb c a. c";
+
+            //char[] izlishni = new char[] { ' ', ',', '!', '.', '?', ':', ';', '"', '-' };
+            string newInput = input.Trim();
+
+            Console.WriteLine(newInput);
 
         }
     }
