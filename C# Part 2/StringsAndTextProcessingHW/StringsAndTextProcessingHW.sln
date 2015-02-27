@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25. ExtractTextFromHTML", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. ReplaceTags", "15. ReplaceTags\15. ReplaceTags.csproj", "{5369E698-243A-4754-8E96-0028712DCCD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. ReverseSentence(Alternative)", "13. ReverseSentence(Alternative)\13. ReverseSentence(Alternative).csproj", "{D6DDA58A-C9CC-4EC3-B106-7E3C833DF163}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{5369E698-243A-4754-8E96-0028712DCCD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5369E698-243A-4754-8E96-0028712DCCD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5369E698-243A-4754-8E96-0028712DCCD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6DDA58A-C9CC-4EC3-B106-7E3C833DF163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DDA58A-C9CC-4EC3-B106-7E3C833DF163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DDA58A-C9CC-4EC3-B106-7E3C833DF163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DDA58A-C9CC-4EC3-B106-7E3C833DF163}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
