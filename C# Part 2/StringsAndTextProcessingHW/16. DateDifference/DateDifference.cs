@@ -3,9 +3,7 @@
     using System;
     using System.Collections.Generic;
     using System.Globalization;
-    using System.Linq;
     using System.Text;
-    using System.Threading.Tasks;
 
 //Problem 16. Date difference
 
@@ -26,13 +24,7 @@
 
             TimeSpan result = parsedDate2.Subtract(parsedDate1);
 
-            if (result < 0)
-            {
-                result *= -1;
-            }
-
             Console.WriteLine("Days inbetween: {0}", result.TotalDays);
         }
-
     }
 }

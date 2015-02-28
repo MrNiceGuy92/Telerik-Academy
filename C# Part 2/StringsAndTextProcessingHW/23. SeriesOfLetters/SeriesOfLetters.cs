@@ -2,9 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
     using System.Text;
-    using System.Threading.Tasks;
 
 //Problem 23. Series of letters
 
@@ -14,32 +12,26 @@
     {
         static void Main()
         {
+            //Use example from problem (or enter your own solution)
             string input = "aaaaabbbbbcdddeeeedssaa";
-
-            StringBuilder result = new StringBuilder();
-
-            char start = input[0];
 
             for (int i = 0; i < input.Length; i++)
             {
-                for (int j = i + 1; j < input.Length; j+=2)
+                for (int j = i + 1; j < input.Length; j++)
                 {
                     if (input[i] == input[j])
-                    {                        
-                        i = j;
-                        j--;
+                    {
                         input = input.Remove(j, 1);
+                        j--;
                     }
                     else
                     {
-                        i = j;
-                        j--;
+                        i++;
                     }
                 }
             }
 
-            Console.WriteLine(input);
+            Console.WriteLine("Result: {0}", input);
         }
     }
-
 }

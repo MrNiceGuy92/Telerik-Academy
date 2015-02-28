@@ -2,9 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
+    using System.Text; 
 
 //Problem 12. Parse URL
 
@@ -15,6 +13,7 @@
     {
         static void Main()
         {
+            //Use following example or your own
             string urlAddress = "https://github.com/TelerikAcademy/CSharp-Part-2/blob/master/06.%20Strings%20and%20Text%20Processing/README.md";
 
             string firstkey = ":";

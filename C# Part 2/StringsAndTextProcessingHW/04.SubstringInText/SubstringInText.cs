@@ -1,10 +1,7 @@
 ﻿namespace SubstringInText
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
+    using System; 
     using System.Text;
-    using System.Threading.Tasks;
 
 //Problem 4. Sub-string in text
 
@@ -32,7 +29,7 @@
 
             string keyword = "in";
 
-            int index = text.ToLower().IndexOf(keyword); //make case insensitive search by converting text to lowercase letters
+            int index = text.ToLower().IndexOf(keyword); //Make case insensitive search by converting text to lowercase letters
 
             int counter = 0;
             while (index != -1)

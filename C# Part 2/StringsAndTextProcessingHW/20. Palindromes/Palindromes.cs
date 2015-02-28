@@ -2,9 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
     using System.Text;
-    using System.Threading.Tasks;
 
 //Problem 20. Palindromes
 
@@ -16,8 +14,9 @@
         {
             string input = "Here are some examples of palindromes: madam, civic, anana and some others: racecar, malayalam.";
 
+            //Removing punctuation marks inside sentence
             string[] allWords = input
-                                .Split(new char[]{' ',',',':','.'}, StringSplitOptions.RemoveEmptyEntries);
+                                .Split(new char[]{' ',',',':','.',';'}, StringSplitOptions.RemoveEmptyEntries);
 
             var result = new List<string>(allWords);
 

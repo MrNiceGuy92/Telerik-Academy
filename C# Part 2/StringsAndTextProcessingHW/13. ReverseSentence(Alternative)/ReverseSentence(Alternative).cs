@@ -2,15 +2,13 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
     using System.Text;
-    using System.Threading.Tasks;
 
     class ReverseSentenceAlternative
     {
         static void Main()
         {
-
+            //Example from problem
             string sentence = "C# is not C++, not PHP and not Delphi!";
 
             //Get sentence ending char

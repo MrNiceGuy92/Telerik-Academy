@@ -2,9 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
     using System.Text;
-    using System.Threading.Tasks;
 
 //Problem 15. Replace tags
 
@@ -16,7 +14,7 @@
         {
             string input = "<p>Please visit <a href=\"http://academy.telerik. com\">our site</a> to choose a training course. Also visit <a href=\"www.devbg.org\">our forum</a> to discuss the courses.</p>";
 
-            input = input.Replace("</a>", "[/URL]");  
+            input = input.Replace("</a>", "[/URL]");
 
             string keyword = "<a href=\"";
             string secondKey = "\">";
@@ -45,3 +43,22 @@
     }
 
 }
+
+//Alternative solution
+//string html = "<p>Please visit <a href=\"http://academy.telerik. com\">our site</a> to choose a training course. Also visit <a href=\"www.devbg.org\">our forum</a> to discuss the courses.</p>";
+
+//            string html1 = "<a href=\"";
+//            string html2 = @""">";
+//            string html3 = "</a>";
+//            string url1 = "[URL=";
+//            string url2 = "]";
+//            string url3 = "[/URL]";
+
+//            while (html.Contains(html1))
+//                html = html.Replace(html1, url1);
+//            while (html.Contains(html2))
+//                html = html.Replace(html2, url2);
+//            while (html.Contains(html3))
+//                html = html.Replace(html3, url3);
+
+//            Console.WriteLine(html);
