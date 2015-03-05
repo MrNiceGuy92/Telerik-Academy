@@ -13,7 +13,7 @@ class Program
     static void Main()
     {
         Console.Write("Enter N: ");
-        int n = Int32.Parse(Console.ReadLine());
+        int n = Int32.Parse(Console.ReadLine()); 
         int[,] matrix = new int[n, n];
         int rows = 0;
         int cols = 0;
