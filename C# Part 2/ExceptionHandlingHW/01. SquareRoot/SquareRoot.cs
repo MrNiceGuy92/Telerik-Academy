@@ -14,7 +14,40 @@
     {
         static void Main()
         {
+            try
+            {
+                Console.Write("Your integer number: ");
+                int someInt = int.Parse(Console.ReadLine());
 
+                GetSquareRoot(someInt);
+            }
+            catch (FormatException)
+            {
+                //The input is not of type int
+                Console.WriteLine("Invalid number. Number must be integer.");
+            }
+            
+            
+        }
+
+        static void GetSquareRoot(int someInt)
+        {
+             try
+            {
+                decimal result = (decimal)Math.Sqrt(someInt);
+                Console.Write("Result: ");
+                Console.WriteLine(String.Format("{0}",result));
+            }
+            catch (OverflowException)
+            {
+                //The input is a negative number
+                Console.WriteLine("Invalid number.");
+            }
+            finally
+            {
+                Console.WriteLine("Good bye");
+            }
         }
     }
 }
+
