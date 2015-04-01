@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4271DB74-D7D3-4F5A-9924-019557CF99FF}</ProjectGuid>
+    <ProjectGuid>{0CF532DF-4F94-4F66-BC17-2FF933ECBB4F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_02.BankAccounts</RootNamespace>
@@ -41,15 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Accounts\Accounts.cs" />
-    <Compile Include="Accounts\DepositAccount.cs" />
-    <Compile Include="Accounts\IAccountInformation.cs" />
-    <Compile Include="Accounts\LoanAccount.cs" />
-    <Compile Include="Accounts\MortgageAccount.cs" />
-    <Compile Include="Cutomers\Company.cs" />
-    <Compile Include="Cutomers\Customer.cs" />
-    <Compile Include="Cutomers\Individual.cs" />
-    <Compile Include="Test.cs" />
+    <Compile Include="Accounts.cs" />
+    <Compile Include="Company.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="DepositAccount.cs" />
+    <Compile Include="Individuals.cs" />
+    <Compile Include="IWithdraw.cs" />
+    <Compile Include="LoanAccount.cs" />
+    <Compile Include="MainTest.cs" />
+    <Compile Include="MortgageAccount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
