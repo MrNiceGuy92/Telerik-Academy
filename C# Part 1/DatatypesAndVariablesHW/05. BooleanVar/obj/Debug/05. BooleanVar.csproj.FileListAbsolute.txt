@@ -1,0 +1,12 @@
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\05. BooleanVar\bin\Debug\_05.BooleanVar.exe.config
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\05. BooleanVar\bin\Debug\_05.BooleanVar.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\05. BooleanVar\bin\Debug\_05.BooleanVar.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\05. BooleanVar\obj\Debug\05. BooleanVar.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\05. BooleanVar\obj\Debug\_05.BooleanVar.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\05. BooleanVar\obj\Debug\_05.BooleanVar.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\05. BooleanVar\bin\Debug\_05.BooleanVar.exe.config
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\05. BooleanVar\obj\Debug\_05.BooleanVar.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\05. BooleanVar\obj\Debug\_05.BooleanVar.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\05. BooleanVar\bin\Debug\_05.BooleanVar.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\05. BooleanVar\bin\Debug\_05.BooleanVar.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\05. BooleanVar\obj\Debug\05. BooleanVar.csprojResolveAssemblyReference.cache

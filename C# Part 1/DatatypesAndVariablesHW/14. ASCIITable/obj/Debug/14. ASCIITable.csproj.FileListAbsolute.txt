@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\14. ASCIITable\bin\Debug\_14.ASCIITable.exe.config
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\14. ASCIITable\bin\Debug\_14.ASCIITable.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\14. ASCIITable\bin\Debug\_14.ASCIITable.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\14. ASCIITable\obj\Debug\14. ASCIITable.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\14. ASCIITable\obj\Debug\_14.ASCIITable.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\14. ASCIITable\obj\Debug\_14.ASCIITable.pdb

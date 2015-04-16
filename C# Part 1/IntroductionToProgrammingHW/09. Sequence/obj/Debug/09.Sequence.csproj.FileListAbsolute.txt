@@ -1,0 +1,5 @@
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\09.Sequence\bin\Debug\09.Sequence.exe.config
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\09.Sequence\bin\Debug\09.Sequence.exe
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\09.Sequence\bin\Debug\09.Sequence.pdb
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\09.Sequence\obj\Debug\09.Sequence.exe
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\09.Sequence\obj\Debug\09.Sequence.pdb

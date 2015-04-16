@@ -1,0 +1,12 @@
+X coordinate: 1
+Y coordinate: 1
+Z coordinate: 1
+
+X coordinate: 2
+Y coordinate: 2
+Z coordinate: 2
+
+X coordinate: 3
+Y coordinate: 3
+Z coordinate: 3
+

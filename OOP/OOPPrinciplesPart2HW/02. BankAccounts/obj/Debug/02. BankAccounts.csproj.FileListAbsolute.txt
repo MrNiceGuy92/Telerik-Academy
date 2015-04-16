@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart2HW\02. BankAccounts\bin\Debug\_02.BankAccounts.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart2HW\02. BankAccounts\obj\Debug\02. BankAccounts.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart2HW\02. BankAccounts\bin\Debug\_02.BankAccounts.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart2HW\02. BankAccounts\bin\Debug\_02.BankAccounts.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart2HW\02. BankAccounts\obj\Debug\_02.BankAccounts.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart2HW\02. BankAccounts\obj\Debug\_02.BankAccounts.pdb

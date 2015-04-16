@@ -1,0 +1,5 @@
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\08. ExtractSentences\bin\Debug\_08.ExtractSentences.exe.config
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\08. ExtractSentences\bin\Debug\_08.ExtractSentences.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\08. ExtractSentences\bin\Debug\_08.ExtractSentences.pdb
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\08. ExtractSentences\obj\Debug\_08.ExtractSentences.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\08. ExtractSentences\obj\Debug\_08.ExtractSentences.pdb

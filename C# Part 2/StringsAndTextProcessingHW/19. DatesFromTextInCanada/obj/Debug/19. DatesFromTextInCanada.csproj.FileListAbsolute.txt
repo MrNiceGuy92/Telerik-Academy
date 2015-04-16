@@ -1,0 +1,5 @@
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\19. DatesFromTextInCanada\bin\Debug\_19.DatesFromTextInCanada.exe.config
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\19. DatesFromTextInCanada\bin\Debug\_19.DatesFromTextInCanada.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\19. DatesFromTextInCanada\bin\Debug\_19.DatesFromTextInCanada.pdb
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\19. DatesFromTextInCanada\obj\Debug\_19.DatesFromTextInCanada.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\19. DatesFromTextInCanada\obj\Debug\_19.DatesFromTextInCanada.pdb

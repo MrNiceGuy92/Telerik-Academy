@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart1HW\New\bin\Debug\New.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart1HW\New\obj\Debug\New.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart1HW\New\obj\Debug\New.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart1HW\New\bin\Debug\New.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart1HW\New\bin\Debug\New.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart1HW\New\obj\Debug\02. StudentsAndWorkers.csprojResolveAssemblyReference.cache

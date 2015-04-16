@@ -1,0 +1,10 @@
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\04. UnicodeCharacter\bin\Debug\_04.UnicodeCharacter.exe.config
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\04. UnicodeCharacter\bin\Debug\_04.UnicodeCharacter.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\04. UnicodeCharacter\bin\Debug\_04.UnicodeCharacter.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\04. UnicodeCharacter\obj\Debug\_04.UnicodeCharacter.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\04. UnicodeCharacter\obj\Debug\_04.UnicodeCharacter.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\04. UnicodeCharacter\bin\Debug\_04.UnicodeCharacter.exe.config
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\04. UnicodeCharacter\obj\Debug\_04.UnicodeCharacter.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\04. UnicodeCharacter\obj\Debug\_04.UnicodeCharacter.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\04. UnicodeCharacter\bin\Debug\_04.UnicodeCharacter.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\04. UnicodeCharacter\bin\Debug\_04.UnicodeCharacter.pdb

@@ -1,0 +1,5 @@
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\14. DateAndTime\bin\Debug\_14.DateAndTime.exe.config
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\14. DateAndTime\bin\Debug\_14.DateAndTime.exe
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\14. DateAndTime\bin\Debug\_14.DateAndTime.pdb
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\14. DateAndTime\obj\Debug\_14.DateAndTime.exe
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\14. DateAndTime\obj\Debug\_14.DateAndTime.pdb

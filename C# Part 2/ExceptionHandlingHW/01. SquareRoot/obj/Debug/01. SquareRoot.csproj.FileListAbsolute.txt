@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\ExceptionHandlingHW\01. SquareRoot\bin\Debug\_01.SquareRoot.exe.config
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\ExceptionHandlingHW\01. SquareRoot\obj\Debug\01. SquareRoot.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\ExceptionHandlingHW\01. SquareRoot\bin\Debug\_01.SquareRoot.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\ExceptionHandlingHW\01. SquareRoot\bin\Debug\_01.SquareRoot.pdb
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\ExceptionHandlingHW\01. SquareRoot\obj\Debug\_01.SquareRoot.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\ExceptionHandlingHW\01. SquareRoot\obj\Debug\_01.SquareRoot.pdb

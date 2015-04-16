@@ -1,0 +1,5 @@
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\10. UnicodeCharacters\bin\Debug\_10.UnicodeCharacters.exe.config
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\10. UnicodeCharacters\bin\Debug\_10.UnicodeCharacters.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\10. UnicodeCharacters\bin\Debug\_10.UnicodeCharacters.pdb
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\10. UnicodeCharacters\obj\Debug\_10.UnicodeCharacters.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\10. UnicodeCharacters\obj\Debug\_10.UnicodeCharacters.pdb

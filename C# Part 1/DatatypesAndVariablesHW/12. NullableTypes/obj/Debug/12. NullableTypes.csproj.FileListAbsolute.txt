@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\12. NullableTypes\bin\Debug\_12.NullableTypes.exe.config
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\12. NullableTypes\bin\Debug\_12.NullableTypes.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\12. NullableTypes\bin\Debug\_12.NullableTypes.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\12. NullableTypes\obj\Debug\_12.NullableTypes.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\12. NullableTypes\obj\Debug\_12.NullableTypes.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\12. NullableTypes\obj\Debug\12. NullableTypes.csprojResolveAssemblyReference.cache

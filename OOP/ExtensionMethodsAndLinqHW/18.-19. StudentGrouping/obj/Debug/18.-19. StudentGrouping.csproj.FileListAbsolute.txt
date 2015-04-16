@@ -1,0 +1,8 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\18.-19. StudentGrouping\bin\Debug\_18._19.StudentGrouping.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\18.-19. StudentGrouping\obj\Debug\18.-19. StudentGrouping.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\18.-19. StudentGrouping\bin\Debug\_18._19.StudentGrouping.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\18.-19. StudentGrouping\bin\Debug\_18._19.StudentGrouping.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\18.-19. StudentGrouping\bin\Debug\_09.__15.StudentExtractions.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\18.-19. StudentGrouping\bin\Debug\_09.__15.StudentExtractions.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\18.-19. StudentGrouping\obj\Debug\_18._19.StudentGrouping.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\18.-19. StudentGrouping\obj\Debug\_18._19.StudentGrouping.pdb

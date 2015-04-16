@@ -1,0 +1,11 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\03-04-05. Students\bin\Debug\_03_04_05.Students.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\03-04-05. Students\bin\Debug\_03_04_05.Students.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\03-04-05. Students\bin\Debug\_03_04_05.Students.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\03-04-05. Students\obj\Debug\_03_04_05.Students.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\03-04-05. Students\obj\Debug\_03_04_05.Students.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\03-04-05. Students\bin\Debug\_03_04_05.Students.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\03-04-05. Students\bin\Debug\_03_04_05.Students.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\03-04-05. Students\bin\Debug\_03_04_05.Students.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\03-04-05. Students\obj\Debug\03-04-05. Students.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\03-04-05. Students\obj\Debug\_03_04_05.Students.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\03-04-05. Students\obj\Debug\_03_04_05.Students.pdb

@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHW\05.PrintMyName\bin\Debug\05.PrintMyName.exe.config
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHW\05.PrintMyName\bin\Debug\05.PrintMyName.exe
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHW\05.PrintMyName\bin\Debug\05.PrintMyName.pdb
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHW\05.PrintMyName\obj\Debug\05.PrintMyName.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHW\05.PrintMyName\obj\Debug\05.PrintMyName.exe
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHW\05.PrintMyName\obj\Debug\05.PrintMyName.pdb

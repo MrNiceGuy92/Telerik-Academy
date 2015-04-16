@@ -1,0 +1,14 @@
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\16. LongSequence\bin\Debug\_16.LongSequence.exe.config
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\16. LongSequence\bin\Debug\_16.LongSequence.exe
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\16. LongSequence\bin\Debug\_16.LongSequence.pdb
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\16. LongSequence\obj\Debug\_16.LongSequence.exe
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\16. LongSequence\obj\Debug\_16.LongSequence.pdb
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHomework\16. LongSequence\bin\Debug\_16.LongSequence.exe.config
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHomework\16. LongSequence\obj\Debug\_16.LongSequence.exe
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHomework\16. LongSequence\obj\Debug\_16.LongSequence.pdb
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHW\16. LongSequence\bin\Debug\_16.LongSequence.exe.config
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHW\16. LongSequence\obj\Debug\_16.LongSequence.exe
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHW\16. LongSequence\obj\Debug\_16.LongSequence.pdb
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHW\16. LongSequence\bin\Debug\_16.LongSequence.exe
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHW\16. LongSequence\bin\Debug\_16.LongSequence.pdb
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHW\16. LongSequence\obj\Debug\16. LongSequence.csprojResolveAssemblyReference.cache

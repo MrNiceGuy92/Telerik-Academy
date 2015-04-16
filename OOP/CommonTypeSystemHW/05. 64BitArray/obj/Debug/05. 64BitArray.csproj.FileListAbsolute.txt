@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\CommonTypeSystemHW\05. 64BitArray\bin\Debug\05. 64BitArray.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\CommonTypeSystemHW\05. 64BitArray\bin\Debug\05. 64BitArray.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\CommonTypeSystemHW\05. 64BitArray\bin\Debug\05. 64BitArray.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\CommonTypeSystemHW\05. 64BitArray\obj\Debug\05. 64BitArray.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\GitHub\OOP\CommonTypeSystemHW\05. 64BitArray\obj\Debug\05. 64BitArray.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\CommonTypeSystemHW\05. 64BitArray\obj\Debug\05. 64BitArray.pdb

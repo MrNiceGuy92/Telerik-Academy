@@ -1,0 +1,5 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\17. LongestString\bin\Debug\_17.LongestString.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\17. LongestString\bin\Debug\_17.LongestString.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\17. LongestString\bin\Debug\_17.LongestString.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\17. LongestString\obj\Debug\_17.LongestString.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\17. LongestString\obj\Debug\_17.LongestString.pdb

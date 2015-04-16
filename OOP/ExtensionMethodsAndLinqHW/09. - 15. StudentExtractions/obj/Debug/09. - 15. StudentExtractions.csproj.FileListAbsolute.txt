@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\09. - 15. StudentExtractions\bin\Debug\_09.__15.StudentExtractions.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\09. - 15. StudentExtractions\bin\Debug\_09.__15.StudentExtractions.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\09. - 15. StudentExtractions\bin\Debug\_09.__15.StudentExtractions.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\09. - 15. StudentExtractions\obj\Debug\09. - 15. StudentExtractions.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\09. - 15. StudentExtractions\obj\Debug\_09.__15.StudentExtractions.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\09. - 15. StudentExtractions\obj\Debug\_09.__15.StudentExtractions.pdb

@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\10.ReformattingCode\bin\Debug\10.ReformattingCode.exe.config
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\10.ReformattingCode\obj\Debug\10.ReformattingCode.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\10.ReformattingCode\bin\Debug\10.ReformattingCode.exe
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\10.ReformattingCode\bin\Debug\10.ReformattingCode.pdb
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\10.ReformattingCode\obj\Debug\10.ReformattingCode.exe
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\10.ReformattingCode\obj\Debug\10.ReformattingCode.pdb

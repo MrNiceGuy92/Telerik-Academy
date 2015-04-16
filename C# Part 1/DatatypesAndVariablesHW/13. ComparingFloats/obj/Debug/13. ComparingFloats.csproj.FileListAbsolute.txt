@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\13. ComparingFloats\bin\Debug\_13.ComparingFloats.exe.config
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\13. ComparingFloats\bin\Debug\_13.ComparingFloats.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\13. ComparingFloats\bin\Debug\_13.ComparingFloats.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\13. ComparingFloats\obj\Debug\_13.ComparingFloats.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\13. ComparingFloats\obj\Debug\_13.ComparingFloats.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\13. ComparingFloats\obj\Debug\13. ComparingFloats.csprojResolveAssemblyReference.cache

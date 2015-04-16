@@ -1,0 +1,5 @@
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\15. ReplaceTags\bin\Debug\_15.ReplaceTags.exe.config
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\15. ReplaceTags\bin\Debug\_15.ReplaceTags.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\15. ReplaceTags\bin\Debug\_15.ReplaceTags.pdb
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\15. ReplaceTags\obj\Debug\_15.ReplaceTags.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\15. ReplaceTags\obj\Debug\_15.ReplaceTags.pdb

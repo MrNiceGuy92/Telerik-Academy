@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\23. SeriesOfLetters\bin\Debug\_23.SeriesOfLetters.exe.config
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\23. SeriesOfLetters\bin\Debug\_23.SeriesOfLetters.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\23. SeriesOfLetters\bin\Debug\_23.SeriesOfLetters.pdb
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\23. SeriesOfLetters\obj\Debug\_23.SeriesOfLetters.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\23. SeriesOfLetters\obj\Debug\_23.SeriesOfLetters.pdb
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\23. SeriesOfLetters\obj\Debug\23. SeriesOfLetters.csprojResolveAssemblyReference.cache

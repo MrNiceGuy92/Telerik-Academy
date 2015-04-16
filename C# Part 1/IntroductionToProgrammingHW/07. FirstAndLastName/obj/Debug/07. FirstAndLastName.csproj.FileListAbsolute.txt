@@ -1,0 +1,8 @@
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\07. FirstAndLastName\bin\Debug\_07.FirstAndLastName.exe.config
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\07. FirstAndLastName\bin\Debug\_07.FirstAndLastName.exe
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\07. FirstAndLastName\bin\Debug\_07.FirstAndLastName.pdb
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\07. FirstAndLastName\obj\Debug\_07.FirstAndLastName.exe
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\07. FirstAndLastName\obj\Debug\_07.FirstAndLastName.pdb
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHomework\07. FirstAndLastName\bin\Debug\_07.FirstAndLastName.exe.config
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHomework\07. FirstAndLastName\obj\Debug\_07.FirstAndLastName.exe
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHomework\07. FirstAndLastName\obj\Debug\_07.FirstAndLastName.pdb

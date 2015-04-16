@@ -1,0 +1,5 @@
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\16. DateDifference\bin\Debug\_16.DateDifference.exe.config
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\16. DateDifference\bin\Debug\_16.DateDifference.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\16. DateDifference\bin\Debug\_16.DateDifference.pdb
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\16. DateDifference\obj\Debug\_16.DateDifference.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\16. DateDifference\obj\Debug\_16.DateDifference.pdb

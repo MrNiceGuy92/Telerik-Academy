@@ -1,0 +1,9 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\01. StringBuilder.Substring\bin\Debug\_01.StringBuilder.Substring.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\01. StringBuilder.Substring\obj\Debug\01. StringBuilderSubstring.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\01. StringBuilder.Substring\bin\Debug\_01.StringBuilder.Substring.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\01. StringBuilder.Substring\bin\Debug\_01.StringBuilder.Substring.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\01. StringBuilder.Substring\obj\Debug\_01.StringBuilder.Substring.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\01. StringBuilder.Substring\obj\Debug\_01.StringBuilder.Substring.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\01. StringBuilder.Substring\bin\Debug\_01.StringBuilder.Substring.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\01. StringBuilder.Substring\obj\Debug\_01.StringBuilder.Substring.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\ExtensionMethodsAndLinqHW\01. StringBuilder.Substring\obj\Debug\_01.StringBuilder.Substring.pdb

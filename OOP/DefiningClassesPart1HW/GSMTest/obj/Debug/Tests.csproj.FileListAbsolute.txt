@@ -1,0 +1,8 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart1HW\GSMTest\bin\Debug\GSMTest.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart1HW\GSMTest\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart1HW\GSMTest\bin\Debug\GSMTest.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart1HW\GSMTest\bin\Debug\GSMTest.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart1HW\GSMTest\bin\Debug\MobilePhoneData.dll
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart1HW\GSMTest\bin\Debug\MobilePhoneData.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart1HW\GSMTest\obj\Debug\GSMTest.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart1HW\GSMTest\obj\Debug\GSMTest.pdb

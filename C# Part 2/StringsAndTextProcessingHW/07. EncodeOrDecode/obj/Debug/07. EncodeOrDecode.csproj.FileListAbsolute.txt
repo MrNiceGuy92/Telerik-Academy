@@ -1,0 +1,5 @@
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\07. EncodeOrDecode\bin\Debug\_07.EncodeOrDecode.exe.config
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\07. EncodeOrDecode\bin\Debug\_07.EncodeOrDecode.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\07. EncodeOrDecode\bin\Debug\_07.EncodeOrDecode.pdb
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\07. EncodeOrDecode\obj\Debug\_07.EncodeOrDecode.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\07. EncodeOrDecode\obj\Debug\_07.EncodeOrDecode.pdb

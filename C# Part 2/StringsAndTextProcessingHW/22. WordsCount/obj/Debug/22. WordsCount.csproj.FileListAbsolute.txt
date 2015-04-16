@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\22. WordsCount\bin\Debug\_22.WordsCount.exe.config
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\22. WordsCount\bin\Debug\_22.WordsCount.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\22. WordsCount\bin\Debug\_22.WordsCount.pdb
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\22. WordsCount\obj\Debug\_22.WordsCount.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\22. WordsCount\obj\Debug\_22.WordsCount.pdb
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\StringsAndTextProcessingHW\22. WordsCount\obj\Debug\22. WordsCount.csprojResolveAssemblyReference.cache

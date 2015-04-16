@@ -1,0 +1,9 @@
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\09. ExchangeVarValues\bin\Debug\_09.ExchangeVarValues.exe.config
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\09. ExchangeVarValues\bin\Debug\_09.ExchangeVarValues.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\09. ExchangeVarValues\bin\Debug\_09.ExchangeVarValues.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\09. ExchangeVarValues\obj\Debug\09. ExchangeVarValues.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\09. ExchangeVarValues\obj\Debug\_09.ExchangeVarValues.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\09. ExchangeVarValues\obj\Debug\_09.ExchangeVarValues.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\09. ExchangeVarValues\bin\Debug\_09.ExchangeVarValues.exe.config
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\09. ExchangeVarValues\obj\Debug\_09.ExchangeVarValues.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\09. ExchangeVarValues\obj\Debug\_09.ExchangeVarValues.pdb

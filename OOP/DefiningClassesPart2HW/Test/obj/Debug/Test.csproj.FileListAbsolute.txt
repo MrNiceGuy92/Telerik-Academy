@@ -1,0 +1,8 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Test\bin\Debug\Test.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Test\bin\Debug\Test.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Test\bin\Debug\Test.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Test\bin\Debug\Points.dll
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Test\bin\Debug\Points.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Test\obj\Debug\Test.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Test\obj\Debug\Test.pdb

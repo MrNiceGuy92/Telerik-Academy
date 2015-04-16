@@ -1,0 +1,12 @@
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\06.PrintNumbers\bin\Debug\06.PrintNumbers.exe.config
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\06.PrintNumbers\obj\Debug\06.PrintNumbers.exe
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\06.PrintNumbers\obj\Debug\06.PrintNumbers.pdb
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\06.PrintNumbers\bin\Debug\06.PrintNumbers.exe
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\06.PrintNumbers\bin\Debug\06.PrintNumbers.pdb
+C:\Users\spacegeek\Desktop\Homework\Intro-Programming-Homework\06.PrintNumbers\obj\Debug\06. PrintNumbers.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHomework\06.PrintNumbers\bin\Debug\06.PrintNumbers.exe.config
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHomework\06.PrintNumbers\obj\Debug\06.PrintNumbers.exe
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHomework\06.PrintNumbers\obj\Debug\06.PrintNumbers.pdb
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHW\06.PrintNumbers\bin\Debug\06.PrintNumbers.exe.config
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHW\06.PrintNumbers\obj\Debug\06.PrintNumbers.exe
+C:\Users\spacegeek\Desktop\Homework\IntroProgrammingHW\06.PrintNumbers\obj\Debug\06.PrintNumbers.pdb

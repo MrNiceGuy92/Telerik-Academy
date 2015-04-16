@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\CommonTypeSystemHW\04. Person\bin\Debug\_04.Person.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\CommonTypeSystemHW\04. Person\bin\Debug\_04.Person.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\CommonTypeSystemHW\04. Person\bin\Debug\_04.Person.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\CommonTypeSystemHW\04. Person\obj\Debug\04. Person.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\GitHub\OOP\CommonTypeSystemHW\04. Person\obj\Debug\_04.Person.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\CommonTypeSystemHW\04. Person\obj\Debug\_04.Person.pdb

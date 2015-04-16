@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart2HW\03. RangeExceptions\obj\Debug\03. RangeExceptions.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart2HW\03. RangeExceptions\bin\Debug\_03.RangeExceptions.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart2HW\03. RangeExceptions\bin\Debug\_03.RangeExceptions.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart2HW\03. RangeExceptions\bin\Debug\_03.RangeExceptions.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart2HW\03. RangeExceptions\obj\Debug\_03.RangeExceptions.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart2HW\03. RangeExceptions\obj\Debug\_03.RangeExceptions.pdb

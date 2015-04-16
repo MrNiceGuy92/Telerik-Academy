@@ -1,0 +1,7 @@
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\11. BankAccountData\bin\Debug\_11.BankAccountData.exe.config
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\11. BankAccountData\bin\Debug\_11.BankAccountData.exe.config
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\11. BankAccountData\bin\Debug\_11.BankAccountData.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\11. BankAccountData\bin\Debug\_11.BankAccountData.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\11. BankAccountData\obj\Debug\11. BankAccountData.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\11. BankAccountData\obj\Debug\_11.BankAccountData.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\11. BankAccountData\obj\Debug\_11.BankAccountData.pdb

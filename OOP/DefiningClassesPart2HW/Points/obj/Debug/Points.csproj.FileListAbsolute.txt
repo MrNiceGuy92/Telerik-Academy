@@ -1,0 +1,5 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Points\bin\Debug\Points.dll
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Points\bin\Debug\Points.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Points\obj\Debug\Points.dll
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Points\obj\Debug\Points.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Points\obj\Debug\Points.csprojResolveAssemblyReference.cache

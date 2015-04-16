@@ -1,0 +1,7 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Generics\bin\Debug\Generics.dll
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Generics\bin\Debug\Generics.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Generics\obj\Debug\Generics.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Generics\obj\Debug\Generics.dll
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Generics\obj\Debug\Generics.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Generics\bin\Debug\Points.dll
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Generics\bin\Debug\Points.pdb

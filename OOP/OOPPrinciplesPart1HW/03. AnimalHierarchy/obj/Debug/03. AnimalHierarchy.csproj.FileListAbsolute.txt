@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart1HW\03. AnimalHierarchy\bin\Debug\_03.AnimalHierarchy.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart1HW\03. AnimalHierarchy\obj\Debug\03. AnimalHierarchy.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart1HW\03. AnimalHierarchy\bin\Debug\_03.AnimalHierarchy.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart1HW\03. AnimalHierarchy\bin\Debug\_03.AnimalHierarchy.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart1HW\03. AnimalHierarchy\obj\Debug\_03.AnimalHierarchy.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\OOPPrinciplesPart1HW\03. AnimalHierarchy\obj\Debug\_03.AnimalHierarchy.pdb

@@ -1,0 +1,9 @@
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\07. QuotesInStrings\bin\Debug\_07.QuotesInStrings.exe.config
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\07. QuotesInStrings\bin\Debug\_07.QuotesInStrings.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\07. QuotesInStrings\bin\Debug\_07.QuotesInStrings.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\07. QuotesInStrings\obj\Debug\07. QuotesInStrings.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\07. QuotesInStrings\obj\Debug\_07.QuotesInStrings.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\07. QuotesInStrings\obj\Debug\_07.QuotesInStrings.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\07. QuotesInStrings\bin\Debug\_07.QuotesInStrings.exe.config
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\07. QuotesInStrings\obj\Debug\_07.QuotesInStrings.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\07. QuotesInStrings\obj\Debug\_07.QuotesInStrings.pdb

@@ -1,0 +1,5 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart1HW\MobilePhoneData\obj\Debug\MobilePhoneData.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart1HW\MobilePhoneData\bin\Debug\MobilePhoneData.dll
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart1HW\MobilePhoneData\bin\Debug\MobilePhoneData.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart1HW\MobilePhoneData\obj\Debug\MobilePhoneData.dll
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart1HW\MobilePhoneData\obj\Debug\MobilePhoneData.pdb

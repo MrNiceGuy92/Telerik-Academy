@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\02. IEnumerableExtensions\bin\Debug\_02.IEnumerableExtensions.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\02. IEnumerableExtensions\bin\Debug\_02.IEnumerableExtensions.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\02. IEnumerableExtensions\bin\Debug\_02.IEnumerableExtensions.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\02. IEnumerableExtensions\obj\Debug\_02.IEnumerableExtensions.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\02. IEnumerableExtensions\obj\Debug\_02.IEnumerableExtensions.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\02. IEnumerableExtensions\obj\Debug\02. IEnumerableExtensions.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\10. EmployeeData\bin\Debug\_10.EmployeeData.exe.config
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\10. EmployeeData\bin\Debug\_10.EmployeeData.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\10. EmployeeData\bin\Debug\_10.EmployeeData.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\10. EmployeeData\obj\Debug\_10.EmployeeData.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatupesAndVariables\10. EmployeeData\obj\Debug\_10.EmployeeData.pdb
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\10. EmployeeData\bin\Debug\_10.EmployeeData.exe.config
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\10. EmployeeData\obj\Debug\_10.EmployeeData.exe
+C:\Users\spacegeek\Desktop\Homework\PrimitiveDatatypesAndVariablesHW\10. EmployeeData\obj\Debug\_10.EmployeeData.pdb

@@ -1,0 +1,5 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Matrix\obj\Debug\Matrix.csprojResolveAssemblyReference.cache
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Matrix\bin\Debug\Matrix.dll
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Matrix\bin\Debug\Matrix.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Matrix\obj\Debug\Matrix.dll
+C:\Users\spacegeek\Desktop\GitHub\OOP\DefiningClassesPart2HW\Matrix\obj\Debug\Matrix.pdb

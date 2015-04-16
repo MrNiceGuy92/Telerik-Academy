@@ -1,0 +1,6 @@
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\UsingClassesAndObjectsHW\06. SumIntegers\bin\Debug\_06.SumIntegers.exe.config
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\UsingClassesAndObjectsHW\06. SumIntegers\bin\Debug\_06.SumIntegers.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\UsingClassesAndObjectsHW\06. SumIntegers\bin\Debug\_06.SumIntegers.pdb
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\UsingClassesAndObjectsHW\06. SumIntegers\obj\Debug\_06.SumIntegers.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\UsingClassesAndObjectsHW\06. SumIntegers\obj\Debug\_06.SumIntegers.pdb
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\UsingClassesAndObjectsHW\06. SumIntegers\obj\Debug\06. SumIntegers.csprojResolveAssemblyReference.cache

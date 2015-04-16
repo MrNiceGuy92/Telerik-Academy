@@ -1,0 +1,5 @@
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\06. DivisibleBy3And7\bin\Debug\_06.DivisibleBy3And7.exe.config
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\06. DivisibleBy3And7\bin\Debug\_06.DivisibleBy3And7.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\06. DivisibleBy3And7\bin\Debug\_06.DivisibleBy3And7.pdb
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\06. DivisibleBy3And7\obj\Debug\_06.DivisibleBy3And7.exe
+C:\Users\spacegeek\Desktop\GitHub\OOP\somethn\06. DivisibleBy3And7\obj\Debug\_06.DivisibleBy3And7.pdb

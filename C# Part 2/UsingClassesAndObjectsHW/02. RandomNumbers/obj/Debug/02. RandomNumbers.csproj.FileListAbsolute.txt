@@ -1,0 +1,5 @@
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\UsingClassesAndObjectsHW\02. RandomNumbers\bin\Debug\_02.RandomNumbers.exe.config
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\UsingClassesAndObjectsHW\02. RandomNumbers\bin\Debug\_02.RandomNumbers.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\UsingClassesAndObjectsHW\02. RandomNumbers\bin\Debug\_02.RandomNumbers.pdb
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\UsingClassesAndObjectsHW\02. RandomNumbers\obj\Debug\_02.RandomNumbers.exe
+C:\Users\spacegeek\Desktop\GitHub\C# Part 2\UsingClassesAndObjectsHW\02. RandomNumbers\obj\Debug\_02.RandomNumbers.pdb
