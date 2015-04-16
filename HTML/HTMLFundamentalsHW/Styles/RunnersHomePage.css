@@ -1,0 +1,13 @@
+h1{
+    font-weight: bold;
+}
+
+hr{
+    height: 1px;
+    background-color: darkgray;
+}
+
+#first:before
+{
+    content:"\00a9";
+}
