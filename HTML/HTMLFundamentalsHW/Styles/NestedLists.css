@@ -1,0 +1,30 @@
+p{
+    width: 500px;
+    text-align: justify;
+}
+
+ol{
+    font-family: "Times New Roman", Serif;
+    font-weight: 600;
+    list-style-type: upper-roman;
+}
+
+#first-unordered-list{
+    list-style-type: lower-alpha;
+}
+
+#ordered-list{
+    list-style-type: decimal;
+}
+
+#last-unordered-list{
+    list-style-type: disc;
+}
+
+#second-unordered-list{
+    list-style-type: circle;
+}
+
+#third-unordered-list{
+    list-style-type: square;
+}

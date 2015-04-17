@@ -7,7 +7,7 @@ hr{
     background-color: darkgray;
 }
 
-#first:before
+#footer:before
 {
     content:"\00a9";
 }

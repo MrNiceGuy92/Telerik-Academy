@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="Styles/NestedLists.css"/>
+    <title>Nested Lists</title>
+</head>
+<body>
+<!--Preceding text-->
+<div>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Adipisci aliquid animi consectetur expedita iste laborum praesentium recusandae,
+        reprehenderit sint voluptates.
+    </p>
+</div>
+<!--End of preceding text-->
+<div>
+    <ol>
+        <li>List Item 1
+            <ul id="first-unordered-list">
+                <li>Nested Item 1.1</li>
+                <li>Nested Item 1.2</li>
+            </ul>
+        </li>
+        <li>List Item 2
+            <ol id="ordered-list">
+                <li>Nested Item 2.1</li>
+                <li>Nested Item 2.2
+                    <ul id="second-unordered-list">
+                        <li>Nested Item 2.2.1</li>
+                        <li>Nested Item 2.2.2
+                            <ul id="third-unordered-list">
+                                <li>Nested Item 2.2.1</li>
+                                <li>Nested Item 2.2.2</li>
+                            </ul>
+                        </li>
+                        <li>Nested Item 2.2.3</li>
+                    </ul>
+                </li>
+                <li>Nested Item 2.3</li>
+            </ol>
+        </li>
+        <li>List Item 3
+            <ul id="last-unordered-list">
+                <li>Nested Item 3.1</li>
+                <li>Nested Item 3.2</li>
+                <li>Nested Item 3.3</li>
+            </ul>
+        </li>
+    </ol>
+</div>
+</body>
+</html>

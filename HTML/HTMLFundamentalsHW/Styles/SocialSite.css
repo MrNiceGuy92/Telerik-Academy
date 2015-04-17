@@ -1,0 +1,25 @@
+body{
+    background-color: skyblue;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.line-break{
+    height: 1px;
+    color: darkgray;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+}
+
+#some-paragraph{
+    margin-bottom: 30px;
+}
+
+.terms{
+    font-style: italic;
+}
