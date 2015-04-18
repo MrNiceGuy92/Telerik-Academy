@@ -1,0 +1,27 @@
+table{
+    border-collapse: collapse;
+}
+td{
+    font-size: larger;
+    border: 1px solid #9fd1db;
+}
+
+input{
+    border: 2px solid #9fd1db;
+    padding: 30px;
+    font-size: 90%;
+    font-weight: bold;
+    background-color: #f4fafb;
+    color: #48889e;
+    display: block;
+    width: 2em;
+}
+
+input[type = text]{
+    text-align: right;
+    width: 11.5em;
+}
+
+input[value="0"]{
+    width: 7.5em;
+}
