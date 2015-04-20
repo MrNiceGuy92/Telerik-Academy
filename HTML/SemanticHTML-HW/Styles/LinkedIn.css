@@ -1,0 +1,21 @@
+fieldset{
+    border-color: #f8f8f8;
+}
+
+hr{
+    background-color: lightgray;
+    height: 1px;
+}
+
+#last-list-item{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+td{
+    height: 2px;
+}
+
+#some-div{
+    padding-top: 15px;
+}

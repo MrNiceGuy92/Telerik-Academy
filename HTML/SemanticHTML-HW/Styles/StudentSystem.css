@@ -1,0 +1,33 @@
+body{
+    height: 50%;
+    font-family: "Arial", "Times New Roman";
+}
+
+#hgroup{
+    float: left;
+}
+
+h1, h3{
+    display: inline;
+}
+
+h1{
+    padding-right: 80px;
+    padding-left: 25px;
+}
+
+table, td, th{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    margin: 25px;
+}
+
+#first-section{
+    border: 3px solid black;
+    width: 60%;
+}
+
+#second-section{
+    padding-top: 30px;
+}
