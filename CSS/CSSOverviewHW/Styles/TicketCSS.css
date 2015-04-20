@@ -1,0 +1,39 @@
+body{
+    background-color: #595959;
+}
+
+th{
+    color: #a3a8a6;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.first-column{
+    font-style: italic;
+    color: white;
+}
+
+td{
+    padding: 15px;
+    font-weight: bold;
+}
+
+#orange-text{
+    color: #b36913;
+}
+
+#red-text{
+    color: #f10106;
+}
+
+.white-text{
+    color: white;
+}
+
+.gray-text{
+    color: #a3a8a6;
+}
+
+#dot-img{
+    height: 15px;
+}

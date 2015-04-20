@@ -1,0 +1,27 @@
+#first-column, #second-column, #third-column, #fourth-column{
+    width: 150px;
+}
+
+thead, th{
+    background-color: #54b706;
+    text-align: left;
+    color: white;
+    font-weight: normal;
+    padding: 5px;
+}
+
+table, td, th{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+img{
+    width: 15px;
+    height: 12px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+tr:nth-child(2n){
+    background-color: #ececd8;
+}
