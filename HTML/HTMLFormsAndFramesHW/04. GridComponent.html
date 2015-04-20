@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="Styles/GridComponent.css"/>
+    <title>Grid Component</title>
+
+    <!--I could not get the buttons lined up with the text boxes. Any suggestions?-->
+
+</head>
+<body>
+<table>
+    <colgroup>
+        <col id="first-column">
+        <col/>
+        <col id="two-column">
+        <col/>
+        <col id="three-column">
+        <col/>
+        <col id="fourth-column">
+        <col/>
+        <col id="fifth-column">
+        <col/>
+        <col id="sixth-column">
+        <col/>
+    </colgroup>
+
+    <thead>
+    <tr>
+        <th colspan="6" id="top-cell">Drag a column header and drop it here to group by that column</th>
+    </tr>
+    <tr>
+        <th>ProductID</th>
+        <th>Product name</th>
+        <th>Unit price</th>
+        <th>Quantity per unit</th>
+        <th>Units in stock</th>
+        <th>Discontinued</th>
+    </tr>
+    <tr>
+        <th><input type="text" id="small-textfield"/></th>
+        <th><input type="text"/></th>
+        <th><input type="text" class="midium-textfield"/> <input type="image" src="images/Capture.PNG" alt="button" /></th>
+        <th><input type="text" class="midium-textfield"/></th>
+        <th><input type="text" class="midium-textfield"/> <input type="image" src="images/Capture.PNG" alt="button"/></th>
+        <th><input type="checkbox"/> <input type="image" src="images/Capture.PNG" alt="button"/></th>
+    </tr>
+    </thead>
+
+    <tfoot>
+    <tr>
+        <td colspan="6">
+            <input type="image" src="images/left1.PNG" alt="button">
+            <input type="image" src="images/left2.PNG" alt="button"/>
+            <span id="page-number"> <span id="one">1</span>  2  3  4  5  6  7  8  9  10 ...</span>
+            <input type="image" src="images/right1.PNG" alt="button"/>
+            <input type="image" src="images/right2.PNG" alt="button"/>
+            <table>
+                <tr>
+                    <span id="page-selector">
+                        Page size: <select name="Page size">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10" selected="selected">10</option>
+                        </select>
+                    </span>
+                    <span id="items-pages">335104 items in 33511 pages</span>
+                </tr>
+            </table>
+
+        </td>
+
+    </tr>
+    </tfoot>
+
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Chai</td>
+        <td>$18.00</td>
+        <td>10 boxes x 20 bags</td>
+        <td>39</td>
+        <td><input type="checkbox" disabled/></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Chang</td>
+        <td>$19.00</td>
+        <td>24 - 12 oz bottles</td>
+        <td>19</td>
+        <td><input type="checkbox" disabled/></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Aniseed Syrup</td>
+        <td>$10.00</td>
+        <td>12 - 500 ml bottles</td>
+        <td>39</td>
+        <td><input type="checkbox" disabled/></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Chef Anton's Cajun Seasoning</td>
+        <td>$22.00</td>
+        <td>48 - 6 oz bottles</td>
+        <td>53</td>
+        <td><input type="checkbox" disabled/></td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Chef Anton's Gumbo Mix</td>
+        <td>$21.35</td>
+        <td>36 boxes</td>
+        <td>0</td>
+        <td><input type="checkbox" checked disabled/></td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Grandma's Boysenberry Spread</td>
+        <td>$25.00</td>
+        <td>12 - 8 oz jars</td>
+        <td>120</td>
+        <td><input type="checkbox" disabled/></td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Uncle Bob's Organic Dried Pears</td>
+        <td>$30.00</td>
+        <td>12 - 1 lb pkgs.</td>
+        <td>15</td>
+        <td><input type="checkbox" disabled/></td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Northwoods Cranberry Sauce</td>
+        <td>$40.00</td>
+        <td>12 - 12 oz jars</td>
+        <td>6</td>
+        <td><input type="checkbox" disabled/></td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Mishi Kobe Niki</td>
+        <td>$97.00</td>
+        <td>18 - 500 g pkgs.</td>
+        <td>29</td>
+        <td><input type="checkbox" checked disabled/></td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Ikura</td>
+        <td>$31.00</td>
+        <td>12 - 200 ml jars</td>
+        <td>31</td>
+        <td><input type="checkbox" disabled/></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

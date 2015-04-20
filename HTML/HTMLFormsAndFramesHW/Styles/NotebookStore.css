@@ -1,0 +1,32 @@
+table{
+    border-collapse: collapse;
+    border: 2px solid #404040;
+    width: 80%;
+}
+
+.columns{
+    width: 70%;
+}
+
+a{
+    color: #00abee;
+    font-size: 30px;
+    font-family: Helvetica Neue;
+    font-weight: 500;
+}
+
+#links{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.inside-divs{
+    width: auto;
+}
+
+fieldset {
+    width: 15%;
+    height: 15%;
+}
+

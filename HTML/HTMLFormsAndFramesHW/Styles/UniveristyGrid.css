@@ -1,0 +1,18 @@
+.column{
+    width: auto;
+}
+
+.average{
+    font-weight: bold;
+    text-align: center;
+}
+
+table, th, td{
+    border: 2px ridge lightgray;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+#foot{
+    padding: 5px;
+}

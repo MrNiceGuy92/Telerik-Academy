@@ -1,0 +1,53 @@
+#first-column{
+    width: 155px;
+}
+
+#second-column{
+    width: 400px;
+}
+
+.center-aligned-text, .larger-textarea{
+    text-align: center;
+    font-weight: bold;
+}
+
+.larger-textarea{
+    height: 100px;
+}
+
+#city-text, #birthday, select{
+    width: 70%;
+}
+
+input{
+    width: 95%;
+}
+
+.smaller-text{
+    width: 17%;
+}
+
+.bigger-text{
+    width: 90%;
+    height: 90%;
+}
+
+.small-text, {
+    width: 20%;
+}
+
+tfoot{
+    background-color: #87ceeb;
+}
+
+.small-button{
+    width: 23%;
+}
+
+#number{
+    width: 30%;
+}
+
+input[type= radio]{
+    width: auto;
+}

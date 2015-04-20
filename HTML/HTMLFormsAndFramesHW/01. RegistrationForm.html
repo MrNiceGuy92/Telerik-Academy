@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="Styles/RegistrationForm.css"/>
+    <title>Registration Form</title>
+</head>
+<body>
+<table border="3">
+    <colgroup>
+        <col id="first-column">
+        <col/>
+        <col id="second-column">
+        <col/>
+    </colgroup>
+    <tfoot>
+    <tr>
+        <td colspan="2" align="center"><input type="submit" value="Submit" class="small-button"/>
+            <input type="button" value="Clean this form" class="small-button"/></td>
+    </tr>
+    </tfoot>
+    <tbody>
+    <tr>
+        <td class="center-aligned-text">Last Name</td>
+        <td><input type="text" name="Last Name"/></td>
+    </tr>
+    <tr>
+        <td class="center-aligned-text">First Name</td>
+        <td><input type="text" name="First Name"/></td>
+    </tr>
+    <tr>
+        <td class="larger-textarea">Address</td>
+        <td><textarea type="text" name="Address" class="bigger-text"></textarea></td>
+    </tr>
+    <tr>
+        <td class="center-aligned-text">City</td>
+        <td><input type="text" name="City" id="city-text"/> State <input type="text" name="state" class="smaller-text"/>
+        </td>
+    </tr>
+    <tr>
+        <td class="center-aligned-text">Zip/Postal Code</td>
+        <td><input type="text" name="Zip/Postal Code" class="small-text"/></td>
+    </tr>
+    <tr>
+        <td class="center-aligned-text">Country</td>
+        <td>
+            <select name="Country">
+                <option value="Bulgaria" selected="selected">Bulgaria</option>
+                <option value="Russia">Russia</option>
+                <option value="Greece">Greece</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="center-aligned-text">Phone(country code, area code, number)</td>
+        <td>(+<input type="text" name="Area code" class="smaller-text"/>) <input type="text" name="Country code"
+                                                                                 class="smaller-text"/> <input
+                type="text" name="Number" id="number"/></td>
+    </tr>
+    <tr>
+        <td class="center-aligned-text">E-mail</td>
+        <td><input type="text" name="E-mail"/></td>
+    </tr>
+    <tr>
+        <td class="center-aligned-text">Birth Date</td>
+        <td><input type="text" name="Birth Date" value="дд. мм. гггг г." id="birthday"/></td>
+    </tr>
+    <tr>
+        <td class="center-aligned-text">Gender</td>
+        <td>
+            <select name="Gender" class="smaller-text">
+                <option value="Male" selected="selected">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td class="center-aligned-text">Starting date</td>
+        <td>
+            <input type="radio" name="Starting date" value="Spring 2015" checked/>Spring 2015
+            <input type="radio" name="Starting date" value="Summer 2015"/>Summer 2015
+        </td>
+    </tr>
+    <tr>
+        <td class="larger-textarea">Comments/Questions</td>
+        <td><textarea type="text" name="Comments/Questions" class="bigger-text"></textarea></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

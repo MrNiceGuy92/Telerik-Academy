@@ -1,0 +1,94 @@
+th, td{
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-spacing: 0;
+}
+
+table{
+    width: 80%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th{
+    font-weight: 100;
+    font-size: small;
+    font-family: "Arial", "Times New Roman";
+    text-align: left;
+    padding: 5px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,246,246,1)), color-stop(5%,rgba(219,220,226,1)), color-stop(95%,rgba(184,186,198,1)), color-stop(96%,rgba(245,246,246,1)), color-stop(96%,rgba(184,186,198,1)));
+}
+
+input[type="text"]{
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+#top-cell{
+    text-align: left;
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+}
+
+#first-column, #fourth-column, #sixth-column{
+    width: 5px;
+}
+
+#second-column, #third-column, #fifth-column{
+    width: 20px;
+}
+
+.midium-textfield{
+    width: 90px;
+}
+
+#small-textfield{
+    width: 30px;
+}
+
+tfoot {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,246,246,1)), color-stop(5%,rgba(219,220,226,1)), color-stop(95%,rgba(184,186,198,1)), color-stop(96%,rgba(245,246,246,1)), color-stop(96%,rgba(184,186,198,1)));
+}
+
+#one{
+    border-radius: 3px;
+    border: 1px solid red;
+}
+
+table tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 0;
+}
+
+table tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+#page-number{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#items-pages{
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#page-selector{
+    padding-left: 35px;
+}
