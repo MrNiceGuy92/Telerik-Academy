@@ -1,8 +1,44 @@
-header{
+body {
+    background-color: #a9a9a9;
+    font-weight: 300;
+}
+
+header {
+    color: #fafad1;
+}
+
+body > header {
     text-align: center;
 }
 
-ul li, a:not(.current) {
-    list-style-type: none;
+p > a {
     text-decoration: none;
+    color: black;
+}
+
+.current {
+    background-color: #d3d3d3;
+}
+
+li a {
+    color: #fafad1;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav li {
+    text-align: center;
+    list-style-type: none;
+}
+
+li:last-child a {
+    text-decoration: underline;
+}
+
+p ~ footer {
+    font-size: 0.8em;
+}
+
+section ~ footer {
+    text-align: center;
 }
