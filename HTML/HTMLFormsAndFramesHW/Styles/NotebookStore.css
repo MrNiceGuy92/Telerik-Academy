@@ -1,32 +1,25 @@
-table{
-    border-collapse: collapse;
-    border: 2px solid #404040;
-    width: 80%;
+a {
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: 900;
+    color: #0094FF;
+    margin-right: 2px;
 }
 
-.columns{
-    width: 70%;
+#laptopTable {
+    border: 1px solid black;
+    float: left;
+    display: inline;
 }
 
-a{
-    color: #00abee;
-    font-size: 30px;
-    font-family: Helvetica Neue;
-    font-weight: 500;
+#sliderTable {
+    padding: 30px;
+    padding-left: 60px;
+    float: left;
+    display: inline;
 }
 
-#links{
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+#sliderTable td {
+    width: 200px;
+    height: 40px;
 }
-
-.inside-divs{
-    width: auto;
-}
-
-fieldset {
-    width: 15%;
-    height: 15%;
-}
-
