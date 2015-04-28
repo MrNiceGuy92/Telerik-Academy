@@ -1,39 +1,39 @@
-body{
+body {
     background-color: #595959;
 }
 
-th{
+th {
     color: #a3a8a6;
     font-weight: normal;
     font-size: 30px;
 }
 
-.first-column{
+.first-column {
     font-style: italic;
     color: white;
 }
 
-td{
+td {
     padding: 15px;
     font-weight: bold;
 }
 
-#orange-text{
+#orange-text {
     color: #b36913;
 }
 
-#red-text{
+#red-text {
     color: #f10106;
 }
 
-.white-text{
+.white-text {
     color: white;
 }
 
-.gray-text{
+.gray-text {
     color: #a3a8a6;
 }
 
-#dot-img{
+#dot-img {
     height: 15px;
 }
