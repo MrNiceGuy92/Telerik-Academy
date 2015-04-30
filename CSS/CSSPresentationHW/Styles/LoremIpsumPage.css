@@ -1,14 +1,14 @@
-p{
+p {
     font-family: Consolas;
     color: #0094ff;
     font-size: 1.3em;
 }
 
-p::first-letter{
+p::first-letter {
     font-family: Edwardian Script ITC;
     font-size: 2em;
 }
 
-p::first-line{
+p::first-line {
     font-weight: bold;
 }

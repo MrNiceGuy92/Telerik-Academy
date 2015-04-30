@@ -25,7 +25,15 @@ div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
 
 body {
     font: 14px normal Arial;
-    color: white;
+    color: #fff;
+    background: rgb(215, 145, 255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(215, 145, 255, 1) 0%, rgba(210, 146, 253, 1) 1%, rgba(197, 138, 242, 1) 5%, rgba(164, 57, 244, 1) 15%, rgba(143, 26, 239, 1) 21%, rgba(146, 21, 242, 1) 25%, rgba(146, 21, 242, 1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(215, 145, 255, 1)), color-stop(1%, rgba(210, 146, 253, 1)), color-stop(5%, rgba(197, 138, 242, 1)), color-stop(15%, rgba(164, 57, 244, 1)), color-stop(21%, rgba(143, 26, 239, 1)), color-stop(25%, rgba(146, 21, 242, 1)), color-stop(100%, rgba(146, 21, 242, 1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(215, 145, 255, 1) 0%, rgba(210, 146, 253, 1) 1%, rgba(197, 138, 242, 1) 5%, rgba(164, 57, 244, 1) 15%, rgba(143, 26, 239, 1) 21%, rgba(146, 21, 242, 1) 25%, rgba(146, 21, 242, 1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(215, 145, 255, 1) 0%, rgba(210, 146, 253, 1) 1%, rgba(197, 138, 242, 1) 5%, rgba(164, 57, 244, 1) 15%, rgba(143, 26, 239, 1) 21%, rgba(146, 21, 242, 1) 25%, rgba(146, 21, 242, 1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(215, 145, 255, 1) 0%, rgba(210, 146, 253, 1) 1%, rgba(197, 138, 242, 1) 5%, rgba(164, 57, 244, 1) 15%, rgba(143, 26, 239, 1) 21%, rgba(146, 21, 242, 1) 25%, rgba(146, 21, 242, 1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(215, 145, 255, 1) 0%, rgba(210, 146, 253, 1) 1%, rgba(197, 138, 242, 1) 5%, rgba(164, 57, 244, 1) 15%, rgba(143, 26, 239, 1) 21%, rgba(146, 21, 242, 1) 25%, rgba(146, 21, 242, 1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d791ff', endColorstr='#9215f2', GradientType=0); /* IE6-9 */
 }
 
 body header {
@@ -62,16 +70,22 @@ body header div#header-container div#reg-form-container div input {
     border-radius: 10px;
     padding: 2px 5px;
     margin: 5px;
+    background-color: #b35ef3;
 }
 
 body header div#header-container div#reg-form-container button {
     margin-left: auto;
     margin-right: auto;
+    color: #fff;
+    width: 90px;
     font-weight: bold;
-    border: 1px solid #603382;
-    border-style: outset;
     border-radius: 10px;
     padding: 5px 8px;
+    border-top: 2px solid #b983e1;
+    border-left: 2px solid #b983e1;
+    border-right: 2px solid #7e42aa;
+    border-bottom: 2px solid #7e42aa;
+    background-color: #b35ef3;
 }
 
 body header div#header-container div#reg-form-container button:hover {
@@ -84,7 +98,8 @@ body header nav {
     width: 75%;
     margin: 20px 20px 20px 20px;
     padding: 12px;
-    border: 2px solid #000;
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
 body header nav ul.nav-list {
@@ -99,7 +114,7 @@ body header nav ul li {
 body header nav ul li a {
     text-decoration: none;
     padding: 0 10px 0 10px;
-    color: white;
+    color: #fff;
     font: 1.4em normal Arial;
 }
 
@@ -127,7 +142,7 @@ body header nav ul li ul li {
     float: none;
     margin: 0 15px;
     padding: 10px 0;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 body header nav ul li ul li:last-of-type {
@@ -142,13 +157,14 @@ body header nav ul li ul li > a {
 body section {
     width: 75%;
     float: left;
-    color: black;
+    color: #fff;
 }
 
 body section article {
     margin: 20px;
     padding: 20px;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
 body section article header {
@@ -177,6 +193,7 @@ body section article footer p time {
 
 body section article footer p a {
     text-decoration: none;
+    color: #c481f6;
 }
 
 body section article footer p a:hover {
@@ -196,13 +213,14 @@ body aside > ul {
 body aside > ul > li {
     margin: 15px 0;
     padding: 15px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
 }
 
 body aside > ul > li h2 {
     font-size: 1.1em;
     font-weight: bold;
+
 }
 
 body aside > ul > li p {
@@ -243,7 +261,7 @@ body aside > ul > li ul li {
     margin-left: 10px;
     margin-bottom: 0px;
     margin-right: 0px;
-    background: url(Images/li-dor.png) no-repeat;
+    background: url(//Images/lidot.png) no-repeat;
     background-position: 0 50%;
     padding-left: 25px;
 }
@@ -254,6 +272,7 @@ body footer {
     padding-bottom: 25px;
     padding-right: 0px;
     padding-left: 0px;
+    text-align: center;
 }
 
 body footer p {
