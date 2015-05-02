@@ -1,0 +1,45 @@
+div#container {
+    background-color: #eee;
+    width: 420px;
+    height: 540px;
+    border-radius: 10px;
+}
+
+div#container > span {
+    font-family: Consolas;
+    font-size: 18px;
+    margin: 15px;
+}
+
+section div {
+    background-color: #fff;
+    width: 400px;
+    height: 120px;
+    border: 1px solid gray;
+    margin-left: 12px;
+    margin-right: 9px;
+    margin-top: 40px;
+}
+
+span.special {
+    font-weight: bold;
+}
+
+img.pics {
+    float: left;
+    margin: 18px;
+    clear: both;
+    border: 1px solid gray;
+}
+
+.listen-button {
+    float: right;
+    margin-right: 20px;
+    position: relative;
+}
+
+.add-button {
+    float: right;
+    margin-right: 5px;
+    position: relative;
+}

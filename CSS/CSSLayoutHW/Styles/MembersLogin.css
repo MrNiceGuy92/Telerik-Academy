@@ -1,0 +1,53 @@
+div {
+    width: 662px;
+    height: 300px;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+}
+
+nav {
+    width: auto;
+    height: 70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: rgb(59,59,59); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(59,59,59,1) 0%, rgba(59,59,59,1) 42%, rgba(55,55,55,1) 67%, rgba(51,51,51,1) 78%, rgba(53,53,53,1) 81%, rgba(45,45,45,1) 96%, rgba(42,42,42,1) 99%, rgba(38,38,38,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(59,59,59,1)), color-stop(42%,rgba(59,59,59,1)), color-stop(67%,rgba(55,55,55,1)), color-stop(78%,rgba(51,51,51,1)), color-stop(81%,rgba(53,53,53,1)), color-stop(96%,rgba(45,45,45,1)), color-stop(99%,rgba(42,42,42,1)), color-stop(100%,rgba(38,38,38,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(59,59,59,1) 0%,rgba(59,59,59,1) 42%,rgba(55,55,55,1) 67%,rgba(51,51,51,1) 78%,rgba(53,53,53,1) 81%,rgba(45,45,45,1) 96%,rgba(42,42,42,1) 99%,rgba(38,38,38,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(59,59,59,1) 0%,rgba(59,59,59,1) 42%,rgba(55,55,55,1) 67%,rgba(51,51,51,1) 78%,rgba(53,53,53,1) 81%,rgba(45,45,45,1) 96%,rgba(42,42,42,1) 99%,rgba(38,38,38,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(59,59,59,1) 0%,rgba(59,59,59,1) 42%,rgba(55,55,55,1) 67%,rgba(51,51,51,1) 78%,rgba(53,53,53,1) 81%,rgba(45,45,45,1) 96%,rgba(42,42,42,1) 99%,rgba(38,38,38,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(59,59,59,1) 0%,rgba(59,59,59,1) 42%,rgba(55,55,55,1) 67%,rgba(51,51,51,1) 78%,rgba(53,53,53,1) 81%,rgba(45,45,45,1) 96%,rgba(42,42,42,1) 99%,rgba(38,38,38,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3b3b', endColorstr='#262626',GradientType=0 ); /* IE6-9 */
+}
+
+span#menu {
+    font-size: 25px;
+    color: white;
+    vertical-align: super;
+}
+
+input {
+    width: 150px;
+    margin: 10px;
+}
+
+h2 {
+    color: #fad71b;
+    padding-left: 12px;
+
+}
+
+p {
+    color: #a0a0a0;
+    width: 600px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
+span#special {
+    color: #fcfcfc;
+}

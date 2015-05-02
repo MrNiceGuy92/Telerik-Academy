@@ -1,0 +1,97 @@
+body{
+    background-color: #f1f1f1;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    float: left;
+    display: block;
+}
+
+ul li {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul#home-link li a{
+    font-weight: bold;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+.first-item {
+    color: #981d1b;
+    font-weight: bold;
+}
+
+#home-link {
+    list-style-image: url('../Images/house.png');
+    margin-left: 25px;
+}
+
+div#main-div {
+    width: 70%;
+    height: 750px;
+    margin-left: 12%;
+    margin-top: 0.5%;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+header {
+    padding-left: 5px;
+}
+
+input {
+    background-color: white;
+    border: 1px solid black;
+    height: 25px;
+    margin-left: 5px;
+}
+
+hr {
+    height: 3px;
+    background-color: #909090;
+    width: 99%;
+}
+
+div.gray-titles {
+    height: 20px;
+    background-color: #808080;
+    color: white;
+    margin: 5px;
+    width: 98.7%;
+    font-weight: bold;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    margin-left: 5px;
+    float: left;
+}
+
+p {
+    font-weight: bold;
+    text-align: justify;
+}
+
+aside {
+    float: right;
+    height: 70px;
+    width: 17.5%;
+    margin-top: -750px;
+    height: 750px;
+}
+
+.small-gray-titles {
+    color: white;
+    text-align: center;
+    background-color: #808080;
+}
