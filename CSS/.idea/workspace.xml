@@ -23,11 +23,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="04. Calculator.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/CSSPresentationHW/04. Calculator.html">
+          <file leaf-file-name="05. LaptopStore.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/CSSLayoutHW/05. LaptopStore.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-7.591727">
-                  <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+                <state vertical-scroll-proportion="0.516129">
+                  <caret line="138" column="14" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -37,11 +37,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Calculator.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/CSSPresentationHW/Styles/Calculator.css">
+          <file leaf-file-name="LaptopStore.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/CSSLayoutHW/Styles/LaptopStore.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.0532646">
-                  <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.09222423">
+                  <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -89,10 +89,16 @@
         <option value="$PROJECT_DIR$/CSSLayoutHW/Styles/MembersLogin.css" />
         <option value="$PROJECT_DIR$/CSSLayoutHW/03. MembersLogin.html" />
         <option value="$PROJECT_DIR$/CSSLayoutHW/Images/04. CSSDocumentationSite.html" />
-        <option value="$PROJECT_DIR$/CSSLayoutHW/Styles/CSSDocumentationSite.css" />
-        <option value="$PROJECT_DIR$/CSSLayoutHW/04. CSSDocumentationSite.html" />
         <option value="$PROJECT_DIR$/CSSPresentationHW/Styles/Calculator.css" />
         <option value="$PROJECT_DIR$/CSSPresentationHW/04. Calculator.html" />
+        <option value="$PROJECT_DIR$/CSSLayoutHW/04. CSSDocumentationSite.html" />
+        <option value="$PROJECT_DIR$/CSSLayoutHW/Styles/CSSDocumentationSite.css" />
+        <option value="$PROJECT_DIR$/CSSLayoutHW/Images/06. NewsSite.html" />
+        <option value="$PROJECT_DIR$/CSSLayoutHW/Styles/NewsSyte.css" />
+        <option value="$PROJECT_DIR$/CSSLayoutHW/06. NewsSite.html" />
+        <option value="$PROJECT_DIR$/CSSLayoutHW/Styles/NewsSite.css" />
+        <option value="$PROJECT_DIR$/CSSLayoutHW/05. LaptopStore.html" />
+        <option value="$PROJECT_DIR$/CSSLayoutHW/Styles/LaptopStore.css" />
       </list>
     </option>
   </component>
@@ -160,7 +166,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -261,7 +267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -269,7 +274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -277,7 +281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="81" column="46" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -285,7 +288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -548,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSSLayoutHW/Styles/MembersLogin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSSLayoutHW/03. MembersLogin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.115385">
@@ -562,34 +557,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSSLayoutHW/Styles/CSSDocumentationSite.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="6" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSSLayoutHW/04. CSSDocumentationSite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6942446">
-          <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSSPresentationHW/Styles/Calculator.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0532646">
+        <state vertical-scroll-proportion="0.0">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSSPresentationHW/04. Calculator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.591727">
+        <state vertical-scroll-proportion="-0.0">
           <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSSLayoutHW/Styles/CSSDocumentationSite.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="120" column="30" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSSLayoutHW/04. CSSDocumentationSite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-69.96154">
+          <caret line="107" column="44" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSSLayoutHW/Styles/NewsSite.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76632303">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSSLayoutHW/06. NewsSite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.192307">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSSLayoutHW/Styles/MembersLogin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7010309">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSSLayoutHW/05. LaptopStore.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.516129">
+          <caret line="138" column="14" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSSLayoutHW/Styles/LaptopStore.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09222423">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,84 @@
+body, ul, div {
+    font-family: Candara;
+    margin: 0;
+    padding: 0;
+}
+
+div#wrapper {
+    border: 3px solid #605e5e;
+    border-radius: 5px;
+    color: #605e5e;
+    height: 650px;
+    width: 67%;
+    font-size: 16px;
+}
+
+nav {
+    color: #00aef0;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+hr {
+    background-color: #605e5e;
+    height: 2px;
+    width: 95%;
+}
+
+div#fieldsets {
+    border: 3px solid #605e5e;
+    float: left;
+    height: 570px;
+    margin-left: 10px;
+    width: 66%;
+}
+
+fieldset {
+    border: 3px solid #605e5e;
+    float: left;
+    font-weight: bold;
+    margin: 10px 5px;
+    width: 43%;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.left-div-in-fieldset {
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+
+.right-div-in-fieldset {
+    margin-top: 35px;
+    margin-left: 160px;
+    text-align: center;
+    width: auto;
+}
+
+#sliders {
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: 630px;
+    margin-top: 100px;
+}
+
+#sliders > div {
+    padding: 5px;
+}
+
+input {
+    width: 90%;
+}
