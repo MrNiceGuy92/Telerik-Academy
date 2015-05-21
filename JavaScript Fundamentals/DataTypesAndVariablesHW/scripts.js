@@ -27,6 +27,13 @@ console.log('Array: ' + arr);
 
 var object = {name: 'Harvey Specter', age: 32};
 console.log('Object type: ' + object.name + ' ' + object.age);
+
+function someFunc(message) {
+    console.log(message);
+}
+
+someFunc('Hello World');
+
 console.log('\n');
 
 /*Problem 2. Quoted Text*/
@@ -49,4 +56,5 @@ console.log('Typeof undefined: ' + typeof(x));
 console.log('Typeof null: ' + typeof(y));
 console.log('Typeof array: ' + typeof(arr));
 console.log('Typeof object: ' + typeof(object));
+console.log('Typeof function: ' + typeof(function(){}));
 
