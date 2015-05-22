@@ -1,5 +1,5 @@
 /*Problem 1. JavaScript Literals*/
-console.log('Problem 1: ')
+console.log('Problem 1: ');
 
 var integer = 67;
 console.log('Integer type: ' + integer);
@@ -37,7 +37,7 @@ someFunc('Hello World');
 console.log('\n');
 
 /*Problem 2. Quoted Text*/
-console.log('Problem 2: ')
+console.log('Problem 2: ');
 
 var firstQuotedText = '"Stop in the name of Love!" - she said.';
 var secondQuotedText = '\'Ok, dear.\' - he said';
@@ -46,7 +46,7 @@ console.log(secondQuotedText);
 console.log('\n');
 
 /*Problem 3 & 4. Typeof Variables & Typeof Null and Undefined*/
-console.log('Problem 3 & 4: ')
+console.log('Problem 3 & 4: ');
 
 console.log('Typeof integer: ' + typeof(integer));
 console.log('Typeof floatingPoint: ' + typeof(floatingPoint));
