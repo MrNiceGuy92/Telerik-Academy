@@ -12,15 +12,14 @@ function biggerNum(firstNum, secondNum) {
 
     if (firstNum > secondNum) {
         max = firstNum;
-        console.log(secondNum, max);
+        return secondNum + ' ' + max;
     }
     else {
-        console.log(firstNum, secondNum);
+        return firstNum + ' ' + secondNum;
     }
 }
 
 // Examples from problem
-
 console.log(biggerNum(5,2));
 console.log(biggerNum(3,4));
 console.log(biggerNum(5.5,4.5));

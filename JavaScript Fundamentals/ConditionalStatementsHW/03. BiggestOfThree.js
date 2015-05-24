@@ -5,7 +5,7 @@ Write a script that finds the biggest of three numbers.
 Use nested if statements.
 */
 
-// I use Node.js to test my solutions
+// Use Node.js to test my solutions
 
 function findLargestNum(firstNum, secondNum, thirdNum) {
     var max = firstNum;

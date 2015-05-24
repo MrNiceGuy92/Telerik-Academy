@@ -9,12 +9,12 @@ Write a script that shows the sign (+, - or 0) of the product of three real numb
 function multiplicationSign(numbers) {
     var counter = 0;
 
-    for (var index = 0; index < numbers.length; index++) {
+    for (var index = 0; index < numbers.length; index+=1) {
         if (numbers[index] == 0) {
             return 'Result: 0';
         }
         else if (numbers[index] < 0) {
-            counter++;
+            counter+=1;
         }
     }
 

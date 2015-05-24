@@ -20,7 +20,6 @@ function inCircleOutRect (xCoord, yCoord) {
     else {
         return 'NO';
     }
-
 }
 
 // Examples from problem
