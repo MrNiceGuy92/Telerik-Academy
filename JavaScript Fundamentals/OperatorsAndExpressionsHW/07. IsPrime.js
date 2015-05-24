@@ -7,10 +7,21 @@ Write an expression that checks if given positive integer number n (n <= 100) is
 
 function checkPrime (someNum) {
     var initialDivider = 2,
-        maxDivider = Math.sqrt(someNum),
+        maxDivider = Math.floor(Math.sqrt(someNum)),
         isPrime = true;
 
+    if(someNum < 2) {
+        isPrime = false;
+        return someNum + ' is prime? ' + isPrime;
+    }
 
+    for (var i = initialDivider; i <= maxDivider ; i++) {
+         if (someNum % i == 0) {
+              isPrime = false;
+                break;
+         }
+    }
+    return someNum + ' is prime? '+ isPrime;
 }
 
 

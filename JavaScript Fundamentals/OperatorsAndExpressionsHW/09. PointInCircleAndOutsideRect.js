@@ -6,19 +6,31 @@
 
 // I use Node.js to test my solutions
 
-function inCirclOutRect (xCoord, yCoord) {
+function inCircleOutRect (xCoord, yCoord) {
     var radius = 3,
      xCircle = 1,
-     yCircle = 1,
-     topRect = 1,
-     leftRect = -1,
-     widthRect = 6,
-     heightRect = 2;
+     yCircle = 1;
 
-    if((xCoord- xCircle)*(xCoord -xCircle) + (yCoord -yCircle)*(yCoord - yCircle) < radius*radius) && ) {
+    var inRect = (-1<=xCoord) && (xCoord<=5) && (-1<=yCoord) && (yCoord<=1),
+        inCircle = (xCircle-xCoord)*(xCircle-xCoord) + (yCircle-yCoord)*(yCircle-yCoord)<= radius*radius;
 
+    if (inCircle && !inRect) {
+        return 'YES';
     }
     else {
-        var result = 'The circle does not satisfy the  '
+        return 'NO';
     }
+
 }
+
+// Examples from problem
+console.log(inCircleOutRect(1, 2));
+console.log(inCircleOutRect(2.5, 2));
+console.log(inCircleOutRect(0, 1));
+console.log(inCircleOutRect(2.5, 1));
+console.log(inCircleOutRect(2, 0));
+console.log(inCircleOutRect(4, 0));
+console.log(inCircleOutRect(2.5, 1.5));
+console.log(inCircleOutRect(2, 1.5));
+console.log(inCircleOutRect(1, 2.5));
+console.log(inCircleOutRect(-100, -100));
