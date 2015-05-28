@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="01. IncreaseArrayMember.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArraysHW/01. IncreaseArrayMember.js">
+      <file leaf-file-name="01. EnglishDigit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FunctionsHW/01. EnglishDigit.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -33,81 +33,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02. Lexicographically comparison.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArraysHW/02. Lexicographically comparison.js">
+      <file leaf-file-name="02. ReverseNumber.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FunctionsHW/02. ReverseNumber.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03. MaximalSequence.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArraysHW/03. MaximalSequence.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="04. MaximalIncreasingSequence.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ArraysHW/04. MaximalIncreasingSequence.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6817043">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem1-Sequences.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../EXAMS/JavaScriptFundamentals/April2013Morning/Solutions/Problem1-Sequences.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05. SelectionSort.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArraysHW/05. SelectionSort.js">
+      <file leaf-file-name="03. OccurencesOfWord.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FunctionsHW/03. OccurencesOfWord.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="32" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="06. MostFrequentNumber.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArraysHW/06. MostFrequentNumber.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="31" selection-end-column="41" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="07. BinarySearch.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="07. BinarySearch.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ArraysHW/07. BinarySearch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state vertical-scroll-proportion="1.150376">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -143,16 +93,16 @@
         <option value="$PROJECT_DIR$/LoopsHW/04. LexicographicallySmallest/04. LexicographicallySmallest.js" />
         <option value="$PROJECT_DIR$/LoopsHW/04. LexicographicallySmallest/index.html" />
         <option value="$PROJECT_DIR$/FunctionsHW/01. EnglishDigit.js" />
-        <option value="$PROJECT_DIR$/FunctionsHW/02. ReverseNumber.js" />
-        <option value="$PROJECT_DIR$/ArraysHW/01. IncreaseArrayMember.js" />
         <option value="$PROJECT_DIR$/FunctionsHW/03. OccurencesOfWord.js" />
         <option value="$PROJECT_DIR$/LoopsHW/01. Numbers.js" />
         <option value="$PROJECT_DIR$/ArraysHW/06. MostFrequentNumber.js" />
         <option value="$PROJECT_DIR$/ArraysHW/05. SelectionSort.js" />
         <option value="$PROJECT_DIR$/ArraysHW/03. MaximalSequence.js" />
-        <option value="$PROJECT_DIR$/ArraysHW/02. Lexicographically comparison.js" />
-        <option value="$PROJECT_DIR$/ArraysHW/07. BinarySearch.js" />
         <option value="$PROJECT_DIR$/ArraysHW/04. MaximalIncreasingSequence.js" />
+        <option value="$PROJECT_DIR$/ArraysHW/01. IncreaseArrayMember.js" />
+        <option value="$PROJECT_DIR$/ArraysHW/02. Lexicographically comparison.js" />
+        <option value="$PROJECT_DIR$/FunctionsHW/02. ReverseNumber.js" />
+        <option value="$PROJECT_DIR$/ArraysHW/07. BinarySearch.js" />
       </list>
     </option>
   </component>
@@ -208,7 +158,7 @@
       <recent name="C:\Users\spacegeek\Desktop\Telerik-Academy\JavaScript Fundamentals\LoopsHW\04. LexicographicallySmallest" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.04. MaximalIncreasingSequence.js">
+  <component name="RunManager" selected="Node.js.07. BinarySearch.js">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -608,20 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FunctionsHW/02. ReverseNumber.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36090225">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunctionsHW/01. EnglishDigit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9799499">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LoopsHW/01. Numbers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -629,30 +565,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FunctionsHW/03. OccurencesOfWord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4473684">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysHW/02. Lexicographically comparison.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ArraysHW/03. MaximalSequence.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,9 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="31" selection-end-column="41" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -670,19 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysHW/07. BinarySearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,24 +590,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArraysHW/04. MaximalIncreasingSequence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ArraysHW/01. IncreaseArrayMember.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArraysHW/02. Lexicographically comparison.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunctionsHW/01. EnglishDigit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysHW/04. MaximalIncreasingSequence.js">
+    <entry file="file://$PROJECT_DIR$/FunctionsHW/02. ReverseNumber.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6817043">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunctionsHW/03. OccurencesOfWord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArraysHW/07. BinarySearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.150376">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

@@ -12,11 +12,12 @@ function binarySearch(givenArray, soughtNumber) {
         sortedArray = [];
 
     while (givenArray.length > 0) {
-        for (var i = 0; i < givenArray.length; i+=1) {
+        for (var i = 0; i < givenArray.length; i += 1) {
             if (min > givenArray[i]) {
                 min = givenArray[i];
             }
         }
+
         var index = givenArray.indexOf(min);
         givenArray.splice(index, 1);
         sortedArray.push(min);
@@ -24,27 +25,24 @@ function binarySearch(givenArray, soughtNumber) {
     }
 
     // Performing Binary Search
-    var halfLengthOfArray = Math.floor(sortedArray.length/2);
+    var maxIndex = sortedArray.length,
+        minIndex = 0,
+        position = Math.floor((maxIndex - minIndex) / 2);
 
-    if (soughtNumber === sortedArray[halfLengthOfArray]) {
-        return sortedArray.indexOf(soughtNumber);
-    }
-    else if(soughtNumber < sortedArray[halfLengthOfArray]){
-        for (var j = 1; j <= halfLengthOfArray; j+=1) {
-             if (soughtNumber === sortedArray[halfLengthOfArray - j]) {
-                  return sortedArray.indexOf(sortedArray[halfLengthOfArray - j]);
-             }
+    for (var k = minIndex; k < maxIndex; k += 1) {
+        if (soughtNumber < sortedArray[position]) {
+            position = position - 1;
+        }
+        else if (soughtNumber > sortedArray[position]) {
+            position = position + 1;
+        }
+        else {
+            break;
         }
     }
-    else if (soughtNumber > sortedArray[halfLengthOfArray]) {
-        for (var k = 1; k <= halfLengthOfArray; k+=1) {
-             if (soughtNumber === sortedArray[halfLengthOfArray + k]) {
-                  return sortedArray.indexOf(sortedArray[halfLengthOfArray + k]);
-             }
-        }
-    }
+
+    return position;
 }
-
 
 var numbers = [3, 4, 1, 2, 5, 0, -3, -9, 32],
     soughtNumber = 1;

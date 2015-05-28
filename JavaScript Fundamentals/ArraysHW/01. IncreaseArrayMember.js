@@ -6,12 +6,12 @@ Print the obtained array on the console.
 */
 
 // Use Node.js to test solution
-var arr = [];
+var someArray = [];
 
 for (var i = 0; i < 20; i+=1) {
-    arr[i] = 5*i;
+    someArray[i] = 5*i;
 }
 
-console.log(arr);
+console.log(someArray);
 
 
