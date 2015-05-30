@@ -7,18 +7,38 @@ Write a function that finds all the occurrences of word in a text.
 */
 
 // Use Node.js to test solution
-
-var text = 'Spider-Man is a fictional superhero appearing in American comic books published by ' +
-    'Marvel Comics. Created by writer-editor Stan Lee and writer-artist Steve Ditko, Spider-Man first ' +
-    'appeared in Amazing Fantasy #15 (Aug. 1962). Lee and Ditko conceived the character as an orphan being' +
-    'raised by his Aunt May and Uncle Ben, and as a teenager, having to deal with the normal struggles of' +
-    'adolescence in addition to those of a costumed crime-fighter. Spider-Man\'s creators gave him super strength' +
-    'and agility, the ability to cling to most surfaces, shoot spider-webs using wrist-mounted devices of his' +
-    'own invention, which he calls "web-shooters", and react to danger quickly with his "spider-sense",' +
-    'enabling him to combat his foes.';
-
-var word = 'spider';
-
 function findWordCount(text, word, caseSensitive) {
+    var textAsArray = text.split(' '),
+        len = textAsArray.length,
+        i,
+        counter = 0;
 
+    if (arguments.length === 2) {
+        for (i = 0; i < len; i += 1) {
+             if (word == textAsArray[i]) {
+                 counter +=1;
+             }
+        }
+    }
+    else if (arguments.length === 3) {
+        word = word.toLowerCase();
+        text = text.toLowerCase();
+        textAsArray = text.split(' ');
+
+        for (i = 0; i < len; i += 1) {
+            if (word == textAsArray[i]) {
+                counter += 1;
+            }
+        }
+    }
+
+    return counter;
 }
+
+// Example
+var text = 'Dog DOg Dog dOg Dog dog Dog dog Dog dog Dog dog Dog DOG Dog DoG';
+var word = 'Dog';
+var caseSensitive = 'Yes';
+
+console.log(findWordCount(text, word));
+console.log(findWordCount(text, word, caseSensitive));

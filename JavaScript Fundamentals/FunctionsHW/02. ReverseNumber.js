@@ -7,9 +7,11 @@ Write a function that reverses the digits of given decimal number.
 // Use Node.js to test solution
 function reverse(someNumber) {
     var numberAsString = someNumber.toString(),
-        result = '';
+        result = '',
+        i,
+        len;
 
-    for (var i = numberAsString.length; i > 0; i-=1) {
+    for (i = len, len = numberAsString.length; i > 0; i-=1) {
         result += numberAsString[i-1];
     }
 

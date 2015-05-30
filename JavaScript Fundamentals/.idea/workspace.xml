@@ -21,46 +21,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="01. EnglishDigit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FunctionsHW/01. EnglishDigit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02. ReverseNumber.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FunctionsHW/02. ReverseNumber.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03. OccurencesOfWord.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="03. OccurencesOfWord.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FunctionsHW/03. OccurencesOfWord.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6817043">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="07. BinarySearch.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ArraysHW/07. BinarySearch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.150376">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -93,7 +59,6 @@
         <option value="$PROJECT_DIR$/LoopsHW/04. LexicographicallySmallest/04. LexicographicallySmallest.js" />
         <option value="$PROJECT_DIR$/LoopsHW/04. LexicographicallySmallest/index.html" />
         <option value="$PROJECT_DIR$/FunctionsHW/01. EnglishDigit.js" />
-        <option value="$PROJECT_DIR$/FunctionsHW/03. OccurencesOfWord.js" />
         <option value="$PROJECT_DIR$/LoopsHW/01. Numbers.js" />
         <option value="$PROJECT_DIR$/ArraysHW/06. MostFrequentNumber.js" />
         <option value="$PROJECT_DIR$/ArraysHW/05. SelectionSort.js" />
@@ -101,8 +66,14 @@
         <option value="$PROJECT_DIR$/ArraysHW/04. MaximalIncreasingSequence.js" />
         <option value="$PROJECT_DIR$/ArraysHW/01. IncreaseArrayMember.js" />
         <option value="$PROJECT_DIR$/ArraysHW/02. Lexicographically comparison.js" />
-        <option value="$PROJECT_DIR$/FunctionsHW/02. ReverseNumber.js" />
         <option value="$PROJECT_DIR$/ArraysHW/07. BinarySearch.js" />
+        <option value="$PROJECT_DIR$/FunctionsHW/02. ReverseNumber.js" />
+        <option value="$PROJECT_DIR$/FunctionsHW/05. AppearanceCount.js" />
+        <option value="$PROJECT_DIR$/FunctionsHW/06. LargerThanNeighbours.js" />
+        <option value="$PROJECT_DIR$/FunctionsHW/07. FirstLargerThanNeighbour.js" />
+        <option value="$PROJECT_DIR$/FunctionsHW/04. NumberOfElements/04. NumberOfElements.js" />
+        <option value="$PROJECT_DIR$/FunctionsHW/04. NumberOfElements/index.html" />
+        <option value="$PROJECT_DIR$/FunctionsHW/03. OccurencesOfWord.js" />
       </list>
     </option>
   </component>
@@ -130,7 +101,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -141,10 +112,65 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FunctionsHW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FunctionsHW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04. NumberOfElements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -158,7 +184,7 @@
       <recent name="C:\Users\spacegeek\Desktop\Telerik-Academy\JavaScript Fundamentals\LoopsHW\04. LexicographicallySmallest" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.07. BinarySearch.js">
+  <component name="RunManager" selected="Node.js.03. OccurencesOfWord.js">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -197,6 +223,21 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="02. ReverseNumber.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="02. ReverseNumber.js" working-dir="$PROJECT_DIR$/FunctionsHW">
+      <method />
+    </configuration>
+    <configuration default="false" name="03. OccurencesOfWord.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="03. OccurencesOfWord.js" working-dir="$PROJECT_DIR$/FunctionsHW">
+      <method />
+    </configuration>
+    <configuration default="false" name="05. AppearanceCount.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="05. AppearanceCount.js" working-dir="$PROJECT_DIR$/FunctionsHW">
+      <method />
+    </configuration>
+    <configuration default="false" name="06. LargerThanNeighbours.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="06. LargerThanNeighbours.js" working-dir="$PROJECT_DIR$/FunctionsHW">
+      <method />
+    </configuration>
+    <configuration default="false" name="07. FirstLargerThanNeighbour.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="07. FirstLargerThanNeighbour.js" working-dir="$PROJECT_DIR$/FunctionsHW">
+      <method />
+    </configuration>
     <configuration default="false" name="01. IncreaseArrayMember.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="01. IncreaseArrayMember.js" working-dir="$PROJECT_DIR$/ArraysHW">
       <method />
     </configuration>
@@ -218,14 +259,23 @@
     <configuration default="false" name="07. BinarySearch.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="07. BinarySearch.js" working-dir="$PROJECT_DIR$/ArraysHW">
       <method />
     </configuration>
-    <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.01. IncreaseArrayMember.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.02. Lexicographically comparison.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.03. MaximalSequence.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.06. MostFrequentNumber.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.04. MaximalIncreasingSequence.js" />
-      <item index="5" class="java.lang.String" itemvalue="Node.js.05. SelectionSort.js" />
-      <item index="6" class="java.lang.String" itemvalue="Node.js.07. BinarySearch.js" />
+    <configuration default="false" name="04. NumberOfElements.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="04. NumberOfElements.js" working-dir="$PROJECT_DIR$/FunctionsHW/04. NumberOfElements">
+      <method />
+    </configuration>
+    <list size="13">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.02. ReverseNumber.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.03. OccurencesOfWord.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.05. AppearanceCount.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.06. LargerThanNeighbours.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.07. FirstLargerThanNeighbour.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.01. IncreaseArrayMember.js" />
+      <item index="6" class="java.lang.String" itemvalue="Node.js.02. Lexicographically comparison.js" />
+      <item index="7" class="java.lang.String" itemvalue="Node.js.03. MaximalSequence.js" />
+      <item index="8" class="java.lang.String" itemvalue="Node.js.06. MostFrequentNumber.js" />
+      <item index="9" class="java.lang.String" itemvalue="Node.js.04. MaximalIncreasingSequence.js" />
+      <item index="10" class="java.lang.String" itemvalue="Node.js.05. SelectionSort.js" />
+      <item index="11" class="java.lang.String" itemvalue="Node.js.07. BinarySearch.js" />
+      <item index="12" class="java.lang.String" itemvalue="Node.js.04. NumberOfElements.js" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -245,7 +295,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -280,46 +330,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="34" />
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ConditionalStatementsHW/08. NumberAsWords.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataTypesAndVariablesHW/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OperatorsAndExpressionsHW/01. OddOrEven.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OperatorsAndExpressionsHW/02. DivisibleBy7And5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OperatorsAndExpressionsHW/03. AreaOfRectangle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OperatorsAndExpressionsHW/04. ThirdDigit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -614,12 +629,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ArraysHW/07. BinarySearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21710527">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FunctionsHW/01. EnglishDigit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -627,26 +649,64 @@
     <entry file="file://$PROJECT_DIR$/FunctionsHW/02. ReverseNumber.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunctionsHW/05. AppearanceCount.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7669173">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunctionsHW/07. FirstLargerThanNeighbour.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.17042607">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunctionsHW/06. LargerThanNeighbours.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5538847">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunctionsHW/04. NumberOfElements/04. NumberOfElements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46867168">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunctionsHW/04. NumberOfElements/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6380697">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FunctionsHW/03. OccurencesOfWord.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6817043">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysHW/07. BinarySearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.150376">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
