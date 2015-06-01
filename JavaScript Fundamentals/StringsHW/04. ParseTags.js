@@ -1,0 +1,75 @@
+/*
+ Problem 4. Parse tags
+
+ You are given a text. Write a function that changes the text in all regions:
+
+ <upcase>text</upcase> to uppercase.
+ <lowcase>text</lowcase> to lowercase
+ <mixcase>text</mixcase> to mix casing(random)
+ */
+
+// Use Node.js to test solution
+function changeText(input) {
+    var mixcaseTag = '<mixcase>',
+        mixcaseEndTag = '</mixcase>',
+        upcaseTag = '<upcase>',
+        upcaseEndTag = '</upcase>',
+        lowcaseTag = '<lowcase>',
+        lowcaseEndTag = '</lowcase>',
+        mixcaseIndex = input.indexOf(mixcaseTag),
+        mixcaseEndIndex = input.indexOf(mixcaseEndTag),
+        upcaseIndex = input.indexOf(upcaseTag),
+        upcaseEndIndex = input.indexOf(upcaseEndTag),
+        lowcaseIndex = input.indexOf(lowcaseTag),
+        lowcaseEndIndex = input.indexOf(lowcaseEndTag),
+        randomNum;
+
+    while(mixcaseIndex >=0) {
+        var sub = input.substring(mixcaseIndex + mixcaseTag.length, mixcaseEndIndex);
+        var sub2= '';
+
+        for (var i = 0; i < sub.length; i+=1) {
+            randomNum = Math.random();
+            if (randomNum <= 0.5) {
+                sub2 += sub[i].toUpperCase();
+            }
+            else {
+                sub2 +=sub[i];
+            }
+        }
+
+        input = input.replace(sub, sub2);
+        mixcaseIndex = input.indexOf(mixcaseTag, mixcaseIndex + 1);
+        mixcaseEndIndex = input.indexOf(mixcaseEndTag, mixcaseEndIndex + 1);
+    }
+
+    while(upcaseIndex >=0) {
+        var sub1 = input.substring(upcaseIndex + upcaseTag.length, upcaseEndIndex);
+        var sub2 = sub1.toUpperCase();
+        input = input.replace(sub1, sub2);
+        upcaseIndex = input.indexOf(upcaseTag, upcaseIndex + 1);
+        upcaseEndIndex = input.indexOf(upcaseEndTag, upcaseEndIndex + 1);
+    }
+
+    while(lowcaseIndex >=0) {
+        var sub1 = input.substring(lowcaseIndex + lowcaseTag.length, lowcaseEndIndex);
+        var sub2 = sub1.toLowerCase();
+        input = input.replace(sub1, sub2);
+        lowcaseIndex = input.indexOf(lowcaseIndex, lowcaseIndex + 1);
+        lowcaseEndIndex = input.indexOf(lowcaseEndTag, lowcaseEndIndex + 1);
+    }
+
+   /* input = input.replace(/<mixcase>/g, '');
+    input = input.replace(/<\/mixcase>/g, '');
+    input = input.replace(/<upcase>/g, '');
+    input = input.replace(/<\/upcase>/g, '');
+    input = input.replace(/<lowcase>/g, '');
+    input = input.replace(/<\/lowcase>/g, '');*/
+
+    return input;
+}
+
+// Example from problem
+var input = 'We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>' +
+    'don\'t</mixcase> have <lowcase>anyTHING</lowcase> else.<upcase>yellow submarine</upcase>';
+console.log(changeText(input));

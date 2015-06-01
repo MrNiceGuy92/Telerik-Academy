@@ -4,6 +4,7 @@ Problem 1. Reverse string
 Write a JavaScript function that reverses a string and returns it.
 */
 
+// Use Node.js to test solution
 function reverse(someString) {
     var reversedString = '',
         len,
