@@ -22,54 +22,59 @@ function changeText(input) {
         upcaseEndIndex = input.indexOf(upcaseEndTag),
         lowcaseIndex = input.indexOf(lowcaseTag),
         lowcaseEndIndex = input.indexOf(lowcaseEndTag),
-        randomNum;
+        randomNum,
+        i,
+        len,
+        initialSubscript,
+        subscript;
 
     while(mixcaseIndex >=0) {
-        var sub = input.substring(mixcaseIndex + mixcaseTag.length, mixcaseEndIndex);
-        var sub2= '';
+        initialSubscript = input.substring(mixcaseIndex + mixcaseTag.length, mixcaseEndIndex);
+        subscript= '';
 
-        for (var i = 0; i < sub.length; i+=1) {
+        for (i = 0, len = initialSubscript.length; i < len; i+=1) {
             randomNum = Math.random();
             if (randomNum <= 0.5) {
-                sub2 += sub[i].toUpperCase();
+                subscript += initialSubscript[i].toUpperCase();
             }
             else {
-                sub2 +=sub[i];
+                subscript +=initialSubscript[i];
             }
         }
 
-        input = input.replace(sub, sub2);
+        input = input.replace(initialSubscript, subscript);
         mixcaseIndex = input.indexOf(mixcaseTag, mixcaseIndex + 1);
         mixcaseEndIndex = input.indexOf(mixcaseEndTag, mixcaseEndIndex + 1);
     }
 
     while(upcaseIndex >=0) {
-        var sub1 = input.substring(upcaseIndex + upcaseTag.length, upcaseEndIndex);
-        var sub2 = sub1.toUpperCase();
-        input = input.replace(sub1, sub2);
+        initialSubscript = input.substring(upcaseIndex + upcaseTag.length, upcaseEndIndex);
+        subscript = initialSubscript.toUpperCase();
+        input = input.replace(initialSubscript, subscript);
         upcaseIndex = input.indexOf(upcaseTag, upcaseIndex + 1);
         upcaseEndIndex = input.indexOf(upcaseEndTag, upcaseEndIndex + 1);
     }
 
     while(lowcaseIndex >=0) {
-        var sub1 = input.substring(lowcaseIndex + lowcaseTag.length, lowcaseEndIndex);
-        var sub2 = sub1.toLowerCase();
-        input = input.replace(sub1, sub2);
+        initialSubscript = input.substring(lowcaseIndex + lowcaseTag.length, lowcaseEndIndex);
+        subscript = initialSubscript.toLowerCase();
+        input = input.replace(initialSubscript, subscript);
         lowcaseIndex = input.indexOf(lowcaseIndex, lowcaseIndex + 1);
         lowcaseEndIndex = input.indexOf(lowcaseEndTag, lowcaseEndIndex + 1);
     }
 
-   /* input = input.replace(/<mixcase>/g, '');
+    // Removing tags
+    input = input.replace(/<mixcase>/g, '');
     input = input.replace(/<\/mixcase>/g, '');
     input = input.replace(/<upcase>/g, '');
     input = input.replace(/<\/upcase>/g, '');
     input = input.replace(/<lowcase>/g, '');
-    input = input.replace(/<\/lowcase>/g, '');*/
+    input = input.replace(/<\/lowcase>/g, '');
 
     return input;
 }
 
 // Example from problem
 var input = 'We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>' +
-    'don\'t</mixcase> have <lowcase>anyTHING</lowcase> else.<upcase>yellow submarine</upcase>';
+    'don\'t</mixcase> have <lowcase>anyTHING</lowcase> else. <upcase>test</upcase> <mixcase>extratest</mixcase>';
 console.log(changeText(input));
