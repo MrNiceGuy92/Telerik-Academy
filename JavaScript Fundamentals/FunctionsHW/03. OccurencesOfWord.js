@@ -1,10 +1,10 @@
 /*
-Problem 3. Occurrences of word
+ Problem 3. Occurrences of word
 
-Write a function that finds all the occurrences of word in a text.
-    The search can be case sensitive or case insensitive.
-    Use function overloading.
-*/
+ Write a function that finds all the occurrences of word in a text.
+ The search can be case sensitive or case insensitive.
+ Use function overloading.
+ */
 
 // Use Node.js to test solution
 function findWordCount(text, word, caseSensitive) {
@@ -15,9 +15,9 @@ function findWordCount(text, word, caseSensitive) {
 
     if (arguments.length === 2) {
         for (i = 0; i < len; i += 1) {
-             if (word == textAsArray[i]) {
-                 counter +=1;
-             }
+            if (word == textAsArray[i]) {
+                counter += 1;
+            }
         }
     }
     else if (arguments.length === 3) {
