@@ -8,14 +8,15 @@ Write an expression that checks if given positive integer number n (n <= 100) is
 function checkPrime (someNum) {
     var initialDivider = 2,
         maxDivider = Math.floor(Math.sqrt(someNum)),
-        isPrime = true;
+        isPrime = true,
+        i;
 
     if(someNum < 2) {
         isPrime = false;
         return someNum + ' is prime? ' + isPrime;
     }
 
-    for (var i = initialDivider; i <= maxDivider ; i++) {
+    for (i = initialDivider; i <= maxDivider ; i+=1) {
          if (someNum % i == 0) {
               isPrime = false;
                 break;
