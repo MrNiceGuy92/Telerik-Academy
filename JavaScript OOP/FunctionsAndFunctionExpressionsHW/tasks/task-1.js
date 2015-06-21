@@ -19,7 +19,7 @@ function sum(someArray) {
 
     for (i = 0, len = someArray.length; i < len; i += 1) {
         if (!+someArray[i]) {
-            throw Error;
+            throw new Error('Elements must be of type Number.');
         }
 
         sum += someArray[i] | 0;

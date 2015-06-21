@@ -8,25 +8,40 @@
 
 function findPrimes(start, end) {
     var i,
-        divider = 2,
+        j,
         maxDivider,
-        result = [];
+        result = [],
+        isPrime = true;
 
-    if (arguments.length < 2) {
-        throw Error;
+    if (arguments.length !== 2) {
+        throw new Error('Function needs to have two arguments.');
+    } else if ((isNaN(+start) || isNaN(+end))) {
+        throw new Error('Range intervals needs to consist of Numbers.');
     }
 
-    if (+start < 3) {
-        result.push(2,3);
+    start = +start;
+    end = +end;
+
+    if (start <= 2) {
+        result.push(2);
+        start = 3;
     }
 
-    for (i = start | 0; i <= end | 0; i += 1) {
+    if (start % 2 === 0) {
+        start += 1;
+    }
+
+    for (i = start; i <= end; i += 2) {
         maxDivider = Math.sqrt(i);
-        for (var j = divider; j <= maxDivider; j += 1) {
-            if (i % divider) {
-                result.push(i);
+        for (j = 3; j <= maxDivider; j += 2) {
+            if (i % j) {
+                isPrime = false;
                 break;
             }
+        }
+
+        if (isPrime) {
+            result.push(i);
         }
     }
 
