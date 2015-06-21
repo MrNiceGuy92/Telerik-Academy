@@ -132,16 +132,6 @@ function solve() {
                 list: listCategories
             }
         };
-
-        return {
-            books: {
-                list: listBooks,
-                add: addBook
-            },
-            categories: {
-                list: listCategories
-            }
-        };
     }());
 
     return library;
