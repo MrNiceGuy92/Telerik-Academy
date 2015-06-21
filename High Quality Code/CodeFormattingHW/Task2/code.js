@@ -1,4 +1,4 @@
-/*I have used JS.HInt.*/
+/*I have used JS.HINT.*/
 
 (function () {
     'use strict';
