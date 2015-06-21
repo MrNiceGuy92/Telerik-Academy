@@ -1,5 +1,5 @@
 /* Task Description */
-/* 
+/*
  *	Create a module for working with books
  *	The module must provide the following functionalities:
  *	Add a new book to category
@@ -20,63 +20,118 @@
  *	Book ISBN is an unique code that contains either 10 or 13 digits
  *	If something is not valid - throw Error
  */
-
 function solve() {
     var library = (function () {
         var books = [],
             categories = [];
 
-        function listBooks() {
+        function listBooks(parameter) {
+            if(arguments.length > 0) {
+                if(typeof parameter.category !== 'undefined') {
+                    return typeof categories[parameter.category] !== 'undefined' ?
+                        categories[parameter.category].books : [];
+                }
+
+                if(typeof parameter.author !== 'undefined') {
+
+                    var booksToList = [];
+
+                    for(var ind = 0, len = books.length; ind < len; ind += 1) {
+                        if(books[ind].author === parameter.author) {
+                            booksToList.push(books[ind]);
+                        }
+                    }
+
+                    return booksToList;
+                }
+            }
+
             return books;
         }
 
-        function addBook(book) {
-            //if (!book.title || !book.author || !book.isbn || !book.category) {
-            //    throw new Error;
-            //}
+        function checkParameters(book) {
+            for (var param in book) {
+                if(typeof book[param] === 'undefined') {
+                    throw new Error(param + 'cannot be undefined.');
+                }
+            }
+        }
 
-            if (book.author === '') {
+        function validateTitle(input) {
+            if (input.length < 2 || input.length > 100) {
+                throw new Error('Title must between 2 and 100 symbols.');
+            }
+        }
+
+        function validateCategory(input) {
+            if (input.length < 2 || input.length > 100) {
+                throw new Error('Category must between 2 and 100 symbols.');
+            }
+        }
+
+        function validateAuthor(input) {
+            if (input === '') {
                 throw new Error('Author name cannot be empty string.');
             }
+        }
 
-            //if (book.title.length < 2 ||
-            //    book.title.length > 100 ||
-            //    book.category.length < 2 ||
-            //    book.category.length > 100){
-            //
-            //    throw new Error;
-            //}
+        function validateISBN(input) {
+            if (input.length !== 10 || input.length !== 13) {
+                throw new Error('ISBN must be either 10 or 13 characters long.');
+            }
+        }
 
-            //if (book.isbn.length !== 10 || book.isbn.length !== 13) {
-            //    throw new Error('ISBN must be either 10 or 13 characters long.');
-            //}
-
-            book.title = this.title;
-            book.isbn = this.isbn;
-            book.author = this.author;
-            book.category = this.category;
-            book.ID = books.length + 1;
-
-            books.push(book);
-
+        function checkRepeatingParameters() {
             for (var i = 0; i < books.length; i+=1) {
                 if (books[i].title === book.title) {
-                    books.slice(i);
                     throw new Error('Title already exists.');
                 }
                 if (books[i].isbn === book.isbn) {
-                    books.slice(i);
                     throw new Error('ISBN already exists.');
                 }
             }
+        }
 
+        function addCategory(name) {
+            categories[name] = {
+                books: [],
+                ID: categories.length + 1
+            };
+        }
 
+        function addBook(book) {
+
+            book.ID = books.length + 1;
+
+            checkParameters(book);
+            validateTitle(book.title);
+            validateCategory(book.category);
+            validateAuthor(book.author);
+            validateISBN(book.isbn);
+            checkRepeatingParameters();
+            categories[book.category].books.push(book);
+
+            books.push(book);
             return book;
         }
 
-        function listCategories() {
-            return categories;
+        function listCategories(category) {
+
+            var categoriesNames = [];
+            Array.prototype.push.apply(categoriesNames, Object.keys(categories));
+
+            return categoriesNames;
         }
+
+        return {
+            books: {
+                list: listBooks,
+                add: addBook
+            },
+            categories: {
+                list: listCategories
+            }
+        };
 
         return {
             books: {
