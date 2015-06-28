@@ -15,12 +15,12 @@ function findPrimes(start, end) {
 
     if (arguments.length !== 2) {
         throw new Error('Function needs to have two arguments.');
-    } else if ((isNaN(+start) || isNaN(+end))) {
+    } else if ((isNaN(parseInt(start)) || isNaN(parseInt(end)))) {
         throw new Error('Range intervals needs to consist of Numbers.');
     }
 
-    start = +start;
-    end = +end;
+    start = parseInt(start);
+    end = parseInt(end);
 
     if (start <= 2) {
         result.push(2);
@@ -33,13 +33,12 @@ function findPrimes(start, end) {
 
     for (i = start; i <= end; i += 2) {
         maxDivider = Math.sqrt(i);
-        for (j = 3; j <= maxDivider; j += 2) {
+        for (j = 3; j < maxDivider; j += 2) {
             if (i % j) {
                 isPrime = false;
                 break;
             }
         }
-
         if (isPrime) {
             result.push(i);
         }
