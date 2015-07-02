@@ -1,369 +1,348 @@
-﻿namespace CSharp.Task4
+﻿namespace MineGame
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
     using System.Text;
-    using System.Threading.Tasks;
+    using CSharp.Task4;
 
     public class Mines
     {
-        public class tochki
+        public static void Main(string[] arguments)
         {
-            public string name;
-            public int points;
-
-            public string Name
-            {
-                get 
-                { 
-                    return this.name; 
-                }
-                set 
-                { 
-                    this.name = value; 
-                }
-            }
-
-            public int Points
-            {
-                get 
-                { 
-                    return points; 
-                }
-                set 
-                { 
-                    points = value; 
-                }
-            }
-
-            public tochki() 
-            { 
-            }
-
-            public tochki(string name, int points)
-            {
-                this.name = name;
-                this.points = points;
-            }
-        }
-
-        static void Main(string[] arguments)
-        {
+            const int FiledsWithoutMines = 35;
             string command = string.Empty;
-            char[,] field = createPlayingField();
-            char[,] bombs = placeBombs();
-            int counter = 0;
-            bool explosion = false;
-            List<tochki> champions = new List<tochki>(6);
             int row = 0;
             int column = 0;
-            bool flag = true;
-            const int maximum = 35;
-            bool isMaximum = false;
+            int pointsStandingInfoCounter = 0;
+            List<PointsStandingInfo> highScores = new List<PointsStandingInfo>(6);
+            char[,] playFieldArray = CreatePlayingField();
+            char[,] mineFieldArray = PlaceMines();
+            bool hasExploded = false;
+            bool isNewGame = true;
+            bool maxPointsStandingInfoReached = false;
 
             do
             {
-                if (flag)
+                if (isNewGame)
                 {
-                    Console.WriteLine("Let's play \"Mines\". Try your best to find the places without mines." +
-                    "Command 'top' shows the result, cammand 'restart' starts a new game, and command 'exit' terminates the game.");
-                    dumpp(field);
-                    flag = false;
+                    Console.WriteLine("Lets play Mines! Try to find the fields without mines." +
+                    " Command 'top' shows the results, command 'restart' starts a new game, command 'exit' exits the game!");
+                    PrintPlayingField(playFieldArray);
+                    isNewGame = false;
                 }
+
                 Console.Write("Input row and column: ");
                 command = Console.ReadLine().Trim();
+
                 if (command.Length >= 3)
                 {
                     if (int.TryParse(command[0].ToString(), out row) &&
                     int.TryParse(command[2].ToString(), out column) &&
-                        row <= field.GetLength(0) && column <= field.GetLength(1))
+                        row <= playFieldArray.GetLength(0) && column <= playFieldArray.GetLength(1))
                     {
                         command = "turn";
                     }
                 }
+
                 switch (command)
                 {
                     case "top":
-                        Scores(champions);
+                        ShowResults(highScores);
                         break;
                     case "restart":
-                        field = createPlayingField();
-                        bombs = placeBombs();
-                        dumpp(field);
-                        explosion = false;
-                        flag = false;
+                        playFieldArray = CreatePlayingField();
+                        mineFieldArray = PlaceMines();
+                        PrintPlayingField(playFieldArray);
+                        hasExploded = false;
+                        isNewGame = false;
                         break;
                     case "exit":
-                        Console.WriteLine("Thanks for playing!");
+                        Console.WriteLine("Goodbye!");
                         break;
                     case "turn":
-                        if (bombs[row, column] != '*')
+                        if (mineFieldArray[row, column] != '*')
                         {
-                            if (bombs[row, column] == '-')
+                            if (mineFieldArray[row, column] == '-')
                             {
-                                tisinahod(field, bombs, row, column);
-                                counter++;
+                                ShowFieldValue(playFieldArray, mineFieldArray, row, column);
+                                pointsStandingInfoCounter++;
                             }
-                            if (maximum == counter)
+
+                            if (FiledsWithoutMines == pointsStandingInfoCounter)
                             {
-                                isMaximum = true;
+                                maxPointsStandingInfoReached = true;
                             }
                             else
                             {
-                                dumpp(field);
+                                PrintPlayingField(playFieldArray);
                             }
                         }
                         else
                         {
-                            explosion = true;
+                            hasExploded = true;
                         }
+
                         break;
                     default:
-                        Console.WriteLine("\nInvalid Command!\n");
+                        Console.WriteLine("{0} Invalid command! {1}", Environment.NewLine);
                         break;
                 }
-                if (explosion)
+
+                if (hasExploded)
                 {
-                    dumpp(bombs);
-                    Console.Write("\nHrrrrrr! Umria gerojski s {0} to4ki. " +
-                        "Daj si niknejm: ", counter);
-                    string niknejm = Console.ReadLine();
-                    tochki t = new tochki(niknejm, counter);
-                    if (champions.Count < 5)
+                    PrintPlayingField(mineFieldArray);
+                    Console.Write("Game over! You have {0} PointsStandingInfo. Enter your nickname: ", pointsStandingInfoCounter);
+                    string playerNickname = Console.ReadLine();
+                    PointsStandingInfo playerScore = new PointsStandingInfo(playerNickname, pointsStandingInfoCounter);
+
+                    if (highScores.Count < 5)
                     {
-                        champions.Add(t);
+                        highScores.Add(playerScore);
                     }
                     else
                     {
-                        for (int i = 0; i < champions.Count; i++)
+                        for (int i = 0; i < highScores.Count; i++)
                         {
-                            if (champions[i].Points < t.Points)
+                            if (highScores[i].Points < playerScore.Points)
                             {
-                                champions.Insert(i, t);
-                                champions.RemoveAt(champions.Count - 1);
+                                highScores.Insert(i, playerScore);
+                                highScores.RemoveAt(highScores.Count - 1);
                                 break;
                             }
                         }
                     }
-                    champions.Sort((tochki r1, tochki r2) => r2.Name.CompareTo(r1.Name));
-                    champions.Sort((tochki r1, tochki r2) => r2.Points.CompareTo(r1.Points));
-                    Scores(champions);
 
-                    field = createPlayingField();
-                    bombs = placeBombs();
-                    counter = 0;
-                    explosion = false;
-                    flag = true;
+                    highScores.Sort((PointsStandingInfo r1, PointsStandingInfo r2) => r2.Name.CompareTo(r1.Name));
+                    highScores.Sort((PointsStandingInfo r1, PointsStandingInfo r2) => r2.Points.CompareTo(r1.Points));
+                    ShowResults(highScores);
+
+                    playFieldArray = CreatePlayingField();
+                    mineFieldArray = PlaceMines();
+                    pointsStandingInfoCounter = 0;
+                    hasExploded = false;
+                    isNewGame = true;
                 }
-                if (isMaximum)
+
+                if (maxPointsStandingInfoReached)
                 {
-                    Console.WriteLine("\nCongratulations! You've won!");
-                    dumpp(bombs);
+                    Console.WriteLine("Congartulations! You've won!");
+                    PrintPlayingField(mineFieldArray);
                     Console.WriteLine("Player name: ");
                     string playerName = Console.ReadLine();
-                    tochki to4kii = new tochki(playerName, counter);
-                    champions.Add(to4kii);
-                    Scores(champions);
-                    field = createPlayingField();
-                    bombs = placeBombs();
-                    counter = 0;
-                    isMaximum = false;
-                    flag = true;
+                    PointsStandingInfo newPointsStandingInfo = new PointsStandingInfo(playerName, pointsStandingInfoCounter);
+                    highScores.Add(newPointsStandingInfo);
+                    ShowResults(highScores);
+                    playFieldArray = CreatePlayingField();
+                    mineFieldArray = PlaceMines();
+                    pointsStandingInfoCounter = 0;
+                    maxPointsStandingInfoReached = false;
+                    isNewGame = true;
                 }
             }
             while (command != "exit");
-            Console.WriteLine("Made in Bulgaria - Uauahahahahaha!");
-            Console.WriteLine("AREEEEEEeeeeeee.");
+            Console.WriteLine("Thanks for playing!");
             Console.Read();
         }
 
-        private static void Scores(List<tochki> to4kii)
+        private static void ShowResults(List<PointsStandingInfo> points)
         {
-            Console.WriteLine("\nPoints:");
-            if (to4kii.Count > 0)
+            Console.WriteLine("{0} PointsStandingInfo:", Environment.NewLine);
+
+            if (points.Count > 0)
             {
-                for (int i = 0; i < to4kii.Count; i++)
+                for (int rank = 0; rank < points.Count; rank++)
                 {
-                    Console.WriteLine("{0}. {1} --> {2} kutii",
-                        i + 1, to4kii[i].Name, to4kii[i].Points);
+                    Console.WriteLine("{0}. {1} --> {2} fields open", rank + 1, points[rank].Name, points[rank].Points);
                 }
+
                 Console.WriteLine();
             }
             else
             {
-                Console.WriteLine("No Scores!\n");
+                Console.WriteLine("No results! {0}", Environment.NewLine);
             }
         }
 
-        private static void tisinahod(char[,] field,
-            char[,] bombs, int row, int column)
+        private static void ShowFieldValue(char[,] playingField, char[,] minesField, int row, int column)
         {
-            char kolkoBombi = numberOfBombs(bombs, row, column);
-            bombs[row, column] = kolkoBombi;
-            field[row, column] = kolkoBombi;
+            char minesCount = NumberOfMines(minesField, row, column);
+            minesField[row, column] = minesCount;
+            playingField[row, column] = minesCount;
         }
 
-        private static void dumpp(char[,] board)
+        private static void PrintPlayingField(char[,] board)
         {
-            int rowLength = board.GetLength(0);
-            int columnLength = board.GetLength(1);
+            int rows = board.GetLength(0);
+            int cols = board.GetLength(1);
             Console.WriteLine("\n    0 1 2 3 4 5 6 7 8 9");
             Console.WriteLine("   ---------------------");
-            for (int i = 0; i < rowLength; i++)
+
+            for (int row = 0; row < rows; row++)
             {
-                Console.Write("{0} | ", i);
-                for (int j = 0; j < columnLength; j++)
+                Console.Write("{0} | ", row);
+
+                for (int col = 0; col < cols; col++)
                 {
-                    Console.Write(string.Format("{0} ", board[i, j]));
+                    Console.Write(string.Format("{0} ", board[row, col]));
                 }
+
                 Console.Write("|");
                 Console.WriteLine();
             }
-            Console.WriteLine("   ---------------------\n");
+
+            Console.WriteLine("   ---------------------{0}", Environment.NewLine);
         }
 
-        private static char[,] createPlayingField()
-        {
-            int boardRows = 5;
-            int boardColumns = 10;
-            char[,] board = new char[boardRows, boardColumns];
-            for (int i = 0; i < boardRows; i++)
-            {
-                for (int j = 0; j < boardColumns; j++)
-                {
-                    board[i, j] = '?';
-                }
-            }
-
-            return board;
-        }
-
-        private static char[,] placeBombs()
+        private static char[,] CreatePlayingField()
         {
             int rows = 5;
-            int cols = 10;
-            char[,] playingField = new char[rows, cols];
-
+            int columns = 10;
+            char[,] playingField = new char[rows, columns];
             for (int i = 0; i < rows; i++)
             {
-                for (int j = 0; j < cols; j++)
+                for (int j = 0; j < columns; j++)
                 {
-                    playingField[i, j] = '-';
+                    playingField[i, j] = '?';
                 }
-            }
-
-            List<int> r3 = new List<int>();
-            while (r3.Count < 15)
-            {
-                Random random = new Random();
-                int asfd = random.Next(50);
-                if (!r3.Contains(asfd))
-                {
-                    r3.Add(asfd);
-                }
-            }
-
-            foreach (int i2 in r3)
-            {
-                int kol = (i2 / cols);
-                int red = (i2 % cols);
-                if (red == 0 && i2 != 0)
-                {
-                    kol--;
-                    red = cols;
-                }
-                else
-                {
-                    red++;
-                }
-                playingField[kol, red - 1] = '*';
             }
 
             return playingField;
         }
 
-        private static void smetki(char[,] pole)
+        private static char[,] PlaceMines()
         {
-            int kol = pole.GetLength(0);
-            int red = pole.GetLength(1);
+            int rows = 5;
+            int columns = 10;
+            char[,] playingField = new char[rows, columns];
 
-            for (int i = 0; i < kol; i++)
+            for (int row = 0; row < rows; row++)
             {
-                for (int j = 0; j < red; j++)
+                for (int col = 0; col < columns; col++)
                 {
-                    if (pole[i, j] != '*')
+                    playingField[row, col] = '-';
+                }
+            }
+
+            List<int> mines = new List<int>();
+            while (mines.Count < 15)
+            {
+                Random random = new Random();
+                int randomNumber = random.Next(50);
+                if (!mines.Contains(randomNumber))
+                {
+                    mines.Add(randomNumber);
+                }
+            }
+
+            foreach (int mine in mines)
+            {
+                int col = mine / columns;
+                int row = mine % columns;
+                if (row == 0 && mine != 0)
+                {
+                    col--;
+                    row = columns;
+                }
+                else
+                {
+                    row++;
+                }
+
+                playingField[col, row - 1] = '*';
+            }
+
+            return playingField;
+        }
+
+        private static void CalculateFieldValues(char[,] playingField)
+        {
+            int columns = playingField.GetLength(0);
+            int rows = playingField.GetLength(1);
+
+            for (int col = 0; col < columns; col++)
+            {
+                for (int row = 0; row < rows; row++)
+                {
+                    if (playingField[col, row] != '*')
                     {
-                        char kolkoo = numberOfBombs(pole, i, j);
-                        pole[i, j] = kolkoo;
+                        char bombCounter = NumberOfMines(playingField, col, row);
+                        playingField[col, row] = bombCounter;
                     }
                 }
             }
         }
 
-        private static char numberOfBombs(char[,] r, int rr, int rrr)
+        private static char NumberOfMines(char[,] playingField, int row, int col)
         {
-            int brojkata = 0;
-            int reds = r.GetLength(0);
-            int kols = r.GetLength(1);
+            int mineCounter = 0;
+            int rows = playingField.GetLength(0);
+            int columns = playingField.GetLength(1);
 
-            if (rr - 1 >= 0)
+            if (row - 1 >= 0)
             {
-                if (r[rr - 1, rrr] == '*')
+                if (playingField[row - 1, col] == '*')
                 {
-                    brojkata++;
+                    mineCounter++;
                 }
             }
-            if (rr + 1 < reds)
+
+            if (row + 1 < rows)
             {
-                if (r[rr + 1, rrr] == '*')
+                if (playingField[row + 1, col] == '*')
                 {
-                    brojkata++;
+                    mineCounter++;
                 }
             }
-            if (rrr - 1 >= 0)
+
+            if (col - 1 >= 0)
             {
-                if (r[rr, rrr - 1] == '*')
+                if (playingField[row, col - 1] == '*')
                 {
-                    brojkata++;
+                    mineCounter++;
                 }
             }
-            if (rrr + 1 < kols)
+
+            if (col + 1 < columns)
             {
-                if (r[rr, rrr + 1] == '*')
+                if (playingField[row, col + 1] == '*')
                 {
-                    brojkata++;
+                    mineCounter++;
                 }
             }
-            if ((rr - 1 >= 0) && (rrr - 1 >= 0))
+
+            if ((row - 1 >= 0) && (col - 1 >= 0))
             {
-                if (r[rr - 1, rrr - 1] == '*')
+                if (playingField[row - 1, col - 1] == '*')
                 {
-                    brojkata++;
+                    mineCounter++;
                 }
             }
-            if ((rr - 1 >= 0) && (rrr + 1 < kols))
+
+            if ((row - 1 >= 0) && (col + 1 < columns))
             {
-                if (r[rr - 1, rrr + 1] == '*')
+                if (playingField[row - 1, col + 1] == '*')
                 {
-                    brojkata++;
+                    mineCounter++;
                 }
             }
-            if ((rr + 1 < reds) && (rrr - 1 >= 0))
+
+            if ((row + 1 < rows) && (col - 1 >= 0))
             {
-                if (r[rr + 1, rrr - 1] == '*')
+                if (playingField[row + 1, col - 1] == '*')
                 {
-                    brojkata++;
+                    mineCounter++;
                 }
             }
-            if ((rr + 1 < reds) && (rrr + 1 < kols))
+
+            if ((row + 1 < rows) && (col + 1 < columns))
             {
-                if (r[rr + 1, rrr + 1] == '*')
+                if (playingField[row + 1, col + 1] == '*')
                 {
-                    brojkata++;
+                    mineCounter++;
                 }
             }
-            return char.Parse(brojkata.ToString());
+
+            return char.Parse(mineCounter.ToString());
         }
-    } 
+    }
 }

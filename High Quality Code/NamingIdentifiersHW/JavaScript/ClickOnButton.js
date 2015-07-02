@@ -1,11 +1,9 @@
 function ClickOnTheButton(event, args) {
     var browserWindow = window,
         browser = browserWindow.navigator.appCodeName,
-        informationSystemManagement = browser;
+        isMozzila = browser == "Mozilla";
 
-    informationSystemManagement = "Mozilla";
-
-    if (informationSystemManagement) {
+    if (isMozilla) {
         alert("Yes");
     } else {
         alert("No");

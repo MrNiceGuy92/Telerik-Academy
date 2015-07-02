@@ -46,7 +46,10 @@
     <Compile Include="Task2\Population.cs" />
     <Compile Include="Task2\Gender.cs" />
     <Compile Include="Task2\Person.cs" />
-    <Compile Include="Task4\Mines.cs" />
+    <Compile Include="Task4\Mines.cs">
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="Task4\Points.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

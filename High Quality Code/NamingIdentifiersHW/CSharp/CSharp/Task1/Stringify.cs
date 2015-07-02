@@ -5,9 +5,6 @@
 
     public class Stringify
     {
-        // The const is not used anywhere, so it could be removed.
-        private const int MaxCount = 6;
-
         public static void Main()
         {
             Stringify.ToStringTransform instance =
