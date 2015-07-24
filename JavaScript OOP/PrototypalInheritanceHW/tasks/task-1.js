@@ -63,22 +63,82 @@
 
 function solve() {
     var domElement = (function () {
+        function isValidType(type) {
+            var regex = /^[a-z0-9]+$/gi;
+
+            if (typeof type !== 'string') {
+                return false;
+            }
+
+            return regex.test(name)
+        }
+
+        function isValidAttributeName(name) {
+            var regex = /^[a-z0-9\-]+$/gi;
+
+            return regex.test(name);
+        }
+
+        function sortAttributes(attributes) {
+            var sorted = attributes.slice(0);
+
+            sorted.sort(function (a, b) {
+                if (a.name === b.name) {
+                    return 0;
+                }
+                return a.name > b.name ? 1 : -1;
+            });
+
+            return sorted;
+        }
+
         var domElement = {
             init: function (type) {
+                this.type = type;
+                this.content = '';
+                this.attributes = [];
+                this.children = [];
+                this.parent = '';
+
+                return this;
             },
             appendChild: function (child) {
+                this.children.push(child);
+                
+                if (typeof child === 'object') {
+                    child.parent = this;
+                }
+
+                return this;
             },
             addAttribute: function (name, value) {
-            },
-            removeAttribute: function (name, value) {
-            },
-            get innerHTML() {
+                var attribute = {},
+                    currentAttribute,
+                    isTheSameName = false;
 
+                if (!isValidAttributeName(name)) {
+                    throw new Error;
+                } 
+
+                attribute.name = name;
+                attribute.value = value;
+                
+                for (var i = 0; i < this.attributes.length; i+=1) {
+                     currentAttribute =this.attributes[i];
+                    if (name === currentAttribute) {
+                        currentAttribute.value = value,
+                            isTheSameName = true;
+                    }
+                } 
+                
+                if (!isTheSameName) {
+                     this.attributes.push(attribute);
+                } 
+
+                return this;
             }
-        };
-        return domElement;
-    }());
-    return domElement;
+        }
+    })
 }
 
 module.exports = solve;
