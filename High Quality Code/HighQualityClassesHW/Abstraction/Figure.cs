@@ -1,26 +1,25 @@
-﻿using System;
-
-namespace Abstraction
+﻿namespace Abstraction
 {
-    abstract class Figure
+    using System.Text;
+
+    public abstract class Figure : IFigure
     {
-        public virtual double Width { get; set; }
-        public virtual double Height { get; set; }
-        public virtual double Radius { get; set; }
-
-        public Figure()
+        protected Figure()
         {
         }
 
-        public Figure(double radius)
-        {
-            this.Radius = radius;
-        }
+        public abstract double GetPerimeter();
 
-        public Figure(double width, double height)
+        public abstract double GetSurface();
+
+        public override string ToString()
         {
-            this.Width = width;
-            this.Height = height;
+            StringBuilder result = new StringBuilder();
+
+            result.AppendFormat("{0}", this.GetType().Name).AppendLine();
+            result.AppendFormat("Area: {0:F4}; Perimeter: {1:F4}", this.GetSurface(), this.GetPerimeter());
+
+            return result.ToString();
         }
     }
 }

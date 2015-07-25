@@ -1,70 +1,44 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace InheritanceAndPolymorphism
+﻿namespace InheritanceAndPolymorphism
 {
-    public class OffsiteCourse
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+
+    public class OffsiteCourse : Course
     {
-        public string Name { get; set; }
-        public string TeacherName { get; set; }
-        public IList<string> Students { get; set; }
-        public string Town { get; set; }
+        private const string InvalidTownNameExceptionMessage = "Town name cannot be null or empty.";
+        private string town;
 
-        public OffsiteCourse(string name)
+        public OffsiteCourse(string courseName, string teacherName, IList<string> students, string town)
+            : base(courseName, teacherName, students)
         {
-            this.Name = name;
-            this.TeacherName = null;
-            this.Students = new List<string>();
-            this.Town = null;
+            this.Town = town;
         }
 
-        public OffsiteCourse(string courseName, string teacherName)
+        public string Town
         {
-            this.Name = courseName;
-            this.TeacherName = teacherName;
-            this.Students = new List<string>();
-            this.Town = null;
-        }
-
-        public OffsiteCourse(string courseName, string teacherName, IList<string> students)
-        {
-            this.Name = courseName;
-            this.TeacherName = teacherName;
-            this.Students = students;
-            this.Town = null;
-        }
-
-        private string GetStudentsAsString()
-        {
-            if (this.Students == null || this.Students.Count == 0)
+            get
             {
-                return "{ }";
+                return this.town;
             }
-            else
+
+            set
             {
-                return "{ " + string.Join(", ", this.Students) + " }";
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    throw new ArgumentException(OffsiteCourse.InvalidTownNameExceptionMessage);
+                }
+
+                this.town = value;
             }
         }
 
         public override string ToString()
         {
             StringBuilder result = new StringBuilder();
-            result.Append("OffsiteCourse { Name = ");
-            result.Append(this.Name);
-            if (this.TeacherName != null)
-            {
-                result.Append("; Teacher = ");
-                result.Append(this.TeacherName);
-            }
-            result.Append("; Students = ");
-            result.Append(this.GetStudentsAsString());
-            if (this.Town != null)
-            {
-                result.Append("; Town = ");
-                result.Append(this.Town);
-            }
-            result.Append(" }");
+            result.AppendLine(base.ToString());
+            result.AppendLine("Town = " + this.Town);
+
             return result.ToString();
         }
     }
